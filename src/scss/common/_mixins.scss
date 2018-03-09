@@ -1,0 +1,28 @@
+//Z-Index Lists
+$elements: covers, tooltip, modals, navigation, nav-toggle;
+$navigation-elements: top-level, dropdown, overlay;
+$covers: background, text;
+$tooltip: tooltip, icon;
+
+@function z($list, $element) {
+   $z-index: index($list, $element);
+
+   @if $z-index {
+      @return $z-index;
+   }
+
+   @warn 'There is no item "#{$element}" in this list; choose one of: #{$list}';
+   @return null;
+}
+
+@mixin object-fit($fit: fill, $position: null){
+  -o-object-fit: $fit;
+     object-fit: $fit;
+  @if $position {
+    -o-object-position: $position;
+       object-position: $position;
+    font-family: 'object-fit: #{$fit}; object-position: #{$position}';
+  } @else {
+    font-family: 'object-fit: #{$fit}';
+  }
+}

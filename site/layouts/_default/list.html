@@ -1,0 +1,9 @@
+{{ partial "head/_head" . }}
+{{ partial "header/_header" . }}
+
+<div class="content container {{ .Title }} {{ .Section | urlize }}">
+  <h1>{{ .Section }}</h1>
+  {{ .Content }}
+</div>
+
+{{ partial "footer/_footer" . }}
