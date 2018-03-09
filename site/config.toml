@@ -1,6 +1,6 @@
 baseurl = "/"
-languageCode = "en-gb"
-languageLang = "en-gb"
+languageCode = "en-us"
+languageLang = "en-us"
 title = "Delyn Packaging"
 
 # RSS, categories and tags disabled for an easy start
