@@ -1,0 +1,7 @@
+<ul class="social navbar-nav">
+  {{ range .Site.Data.social }}
+    <li class="social__link social__link--{{ .name }} nav-item">
+      <a class="nav-link" href="{{ .url }}"><i title="{{ .name }}" class="fab fa-{{ .icon }} fa-lg"></i></a>
+    </li>
+  {{ end }}
+</ul>

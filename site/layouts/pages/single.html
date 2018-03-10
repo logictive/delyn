@@ -1,10 +1,6 @@
-{{ partial "head/_head" . }}
-{{ partial "header/_header" . }}
-
-<main class="content container">
-  {{ .Content }}
-
-  <p>Here's some extra stuff!</p>
-</main>
-
-{{ partial "footer/_footer" . }}
+{{ define "main" }}
+  <main class="content container {{ .Title }}}">
+    <h1>{{ .Section }}</h1>
+    {{ .Content }}
+  </main>
+{{end}}

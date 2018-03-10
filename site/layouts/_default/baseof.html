@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="{{ $.Site.Language.Lang }}">
+  <head>
+    {{ partial "head/metadata" . }}
+    {{ partial "head/favicons" . }}
+    {{ partial "head/opengraph" . }}
+    {{ partial "head/twitter" . }}
+    {{ partial "head/styles" . }}
+    {{ partial "head/prerender" . }}
+  </head>
+  <body>
+    {{ partial "nav" . }}
+    {{ if $.Param "banner.enabled" }}
+    <header class="jumbotron">
+      <div class="container">
+        <div class="hero-content">
+          <h1 class="hero__title">{{ $.Param "banner.title" | markdownify }}</div>
+          <div class="hero__text">{{ $.Param "banner.text" | markdownify }}</div>
+          <div class="hero__action">
+            <a href="{{ $.Param "banner.primaryaction.url" | urlize }}" class="btn btn-xl btn-primary">{{ $.Param "banner.primaryaction.text" }}</a>
+            {{ if $.Param "banner.secondaryaction.text" }}<a href="{{ $.Param "banner.secondaryaction.url" | urlize }}" class="btn btn-xl btn-outlint-white">{{ $.Param "banner.secondaryaction.text" }}</a>{{ end }}
+          </div>
+        </div>
+      </div>
+    </header>
+    {{ else }}
+    <header>
+      <h1>{{ .Title }}</h1>
+      <p class="subtitle"></p>
+    </header>
+    {{ end }}
+
+    {{ block "main" . }}
+    
+    {{ end }}
+
+    {{ block "feature" . }}
+
+    {{ end }}
+
+{{ partial "footer/site_footer" . }}
+{{ partial "footer/scripts" . }}
+</body>
+</html>
