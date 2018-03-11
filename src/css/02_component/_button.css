@@ -1,0 +1,22 @@
+/* Extends Shoelace Button */
+
+.button {
+  &.button-outline, &.button-outline-secondary,
+  &.button-outline-success, &.button-outline-info,
+  &.button-outline-warning, &.button-outline-danger,
+  &.button-outline-light, &.button-outline-dark {
+    background-color: transparent;
+    border-width: 1px;
+    border-style: solid;
+  }
+
+  &.button-outline { border-color: var(--state-primary); color: var(--state-primary); }
+  &.button-outline-secondary { border-color: var(--state-secondary); color: var(--state-secondary); }
+  &.button-outline-success { border-color: var(--state-success); color: var(--state-success); }
+  &.button-outline-info { border-color: var(--state-info); color: var(--state-info); }
+  &.button-outline-warning { border-color: var(--state-warning); color: var(--state-warning); }
+  &.button-outline-danger { border-color: var(--state-danger); color: var(--state-danger); }
+  &.button-outline-light { border-color: var(--state-light); color: var(--state-light); }
+  &.button-outline-dark { border-color: var(--state-dark); color: var(--state-dark); }
+
+}
