@@ -5,8 +5,8 @@ seoDescription: ""
 date: {{ .Date }}
 draft: true
 product:
-  internetNo: ""
-  productNo: ""
+  internetno: ""
+  productno: ""
   length: 0
   width: 0
   depth: 0
@@ -14,4 +14,7 @@ product:
   type: ""
   category: ""
   polymer: ""
+  imageurl: ""
+  imagealt: ""
+  3d: ""
 ---
