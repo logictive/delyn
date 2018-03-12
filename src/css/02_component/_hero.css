@@ -4,7 +4,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: center; 
+  justify-content: center;
 
   &:before {
     content: '';
@@ -20,10 +20,79 @@
   &-image {
     display: block;
     position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
     z-index: -1;
   }
 
   &-content {
     position: relative;
+    padding: 2rem 1rem;
+    width: 100%;
+  }
+
+  &-title {
+    font-size: 2rem;
+  }
+
+  &-action {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    & .button:nth-child(2) {
+      margin: 1rem 0 0;
+    }
+  }
+}
+
+@media (--breakpoint-md-up) { 
+  .hero {
+    min-height: 70vh;
+
+    &-content {
+      width: 75%;
+      padding: 2rem;
+    }
+
+    &-title {
+      font-size: 3rem;
+    }
+
+    &-text {
+      font-size: 1.25rem;
+    }
+
+    &-action {
+      flex-direction: row;
+      justify-content: flex-start;
+  
+      & .button:nth-child(2) {
+        margin: 0 0 0 1rem;
+      }
+    }
+  }
+}
+
+@media (--breakpoint-lg-up) {
+  .hero {
+    min-height: 95vh;
+
+    &-content {
+      margin-left: 5rem;
+      width: 50%;
+    }
+
+    &-title {
+      font-size: 4rem;
+    }
+
+    &-text {
+      font-size: 1.5rem;
+    }
   }
 }

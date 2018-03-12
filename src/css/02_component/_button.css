@@ -10,13 +10,69 @@
     border-style: solid;
   }
 
-  &.button-outline { border-color: var(--state-primary); color: var(--state-primary); }
-  &.button-outline-secondary { border-color: var(--state-secondary); color: var(--state-secondary); }
-  &.button-outline-success { border-color: var(--state-success); color: var(--state-success); }
-  &.button-outline-info { border-color: var(--state-info); color: var(--state-info); }
-  &.button-outline-warning { border-color: var(--state-warning); color: var(--state-warning); }
-  &.button-outline-danger { border-color: var(--state-danger); color: var(--state-danger); }
-  &.button-outline-light { border-color: var(--state-light); color: var(--state-light); }
-  &.button-outline-dark { border-color: var(--state-dark); color: var(--state-dark); }
+  &.button-outline {
+    border-color: var(--button-bg-color);
+    color: var(--button-bg-color);
+    &:--enter {
+      background-color: var(--button-bg-color);
+      color: var(--button-color);
+    }
+  }
+  &.button-outline-secondary {
+    border-color: var(--button-bg-color-secondary);
+    color: var(--button-bg-color-secondary);
+    &:--enter {
+      background-color: var(--button-bg-color-secondary);
+      color: var(--button-color-secondary);
+    }
+  }
+  &.button-outline-success {
+    border-color: var(--button-bg-color-success);
+    color: var(--button-bg-color-success);
+    &:--enter {
+      background-color: var(--button-bg-color-success);
+      color: var(--button-color-success);
+    }
+  }
+  &.button-outline-info {
+    border-color: var(--button-bg-color-info);
+    color: var(--button-bg-color-info);
+    &:--enter {
+      background-color: var(--button-bg-color-info);
+      color: var(--button-color-info);
+    }
+  }
+  &.button-outline-warning {
+    border-color: var(--button-bg-color-warning);
+    color: var(--button-bg-color-warning);
+    &:--enter {
+      background-color: var(--button-bg-color-warning);
+      color: var(--button-color-warning);
+    }
+  }
+  &.button-outline-danger {
+    border-color: var(--button-bg-color-danger);
+    color: var(--button-bg-color-danger);
+    &:--enter {
+      background-color: var(--button-bg-color-danger);
+      color: var(--button-color-danger);
+    }
+  }
+  &.button-outline-light {
+    border-color: var(--button-bg-color-light);
+    color: var(--button-bg-color-light);
+    &:--enter {
+      background-color: var(--button-bg-color-light);
+      color: var(--button-color-light);
+    }
+  }
+  &.button-outline-dark {
+    border-color: var(--button-bg-color-dark);
+    color: var(--button-bg-color-dark);
+    &:--enter {
+      background-color: var(--button-bg-color-dark);
+      color: var(--button-color-dark);
+    }
+  }
 
 }

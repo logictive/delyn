@@ -23,5 +23,5 @@
   --font-family: var(--font-serif);
   --headings-font-family: var(--font-sans-serif);
   --headings-font-weight: var(--font-weight-bold);
-
+  --headings-font-size-h2: 2.5rem;
 }
