@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-398 200x165x45 12 cav"
 imageurl: "/img/products/0-398-200x165x45-12-cav1.jpg"
 3d: "/3d/products/0-398-200x165x45-12-cav1.stl"
-category: ["Meat & BBQ","Snack","Meatball Trays"]
-type: ["Tray"]
+categories: ["Meat & BBQ","Snack","Meatball Trays"]
+types: ["Tray"]
 productinfo:
   internetno: "D574"
   productno: "0-398"

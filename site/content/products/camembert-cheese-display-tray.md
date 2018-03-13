@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-375-5139 CAMENBERT TRAY"
 imageurl: "/img/products/0-375-5139-CAMENBERT-TRAY.jpg"
 3d: "/3d/products/0-375-5139-CAMENBERT-TRAY.stl"
-category: ["Display"]
-type: ["Tray"]
+categories: ["Display"]
+types: ["Tray"]
 productinfo:
   internetno: "D560"
   productno: "0-375"

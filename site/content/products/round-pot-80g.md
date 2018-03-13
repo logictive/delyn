@@ -5,8 +5,8 @@ draft: false
 imagealt: ""
 imageurl: ""
 3d: ""
-category: ["Salad","Party","Snack"]
-type: ["Pot"]
+categories: ["Salad","Party","Snack"]
+types: ["Pot"]
 productinfo:
   internetno: "D446"
   productno: "0-193"

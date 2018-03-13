@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-369-5093 DEEP PLATTER LID"
 imageurl: "/img/products/0-369-5093-DEEP-PLATTER-LID.jpg"
 3d: "/3d/products/0-369-5093-DEEP-PLATTER-LID.stl"
-category: ["Party"]
-type: ["Lid"]
+categories: ["Party"]
+types: ["Lid"]
 productinfo:
   internetno: "D557"
   productno: "0-369"

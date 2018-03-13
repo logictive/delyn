@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-448 500g OPEN TRAY"
 imageurl: "/img/products/0-448-500g-OPEN-TRAY.jpg"
 3d: "/3d/products/0-448-500g-OPEN-TRAY.stl"
-category: ["Salad","Party","Meat & BBQ","Standards"]
-type: ["Tray"]
+categories: ["Salad","Party","Meat & BBQ","Standards"]
+types: ["Tray"]
 productinfo:
   internetno: "D625"
   productno: "0-448"

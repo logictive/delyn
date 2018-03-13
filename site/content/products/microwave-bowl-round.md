@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-176 SOUP NOODLE BOWL"
 imageurl: "/img/products/0-176-SOUP-NOODLE-BOWL.jpg"
 3d: ""
-category: ["Meal Tray","Salad","Party"]
-type: ["Bowl"]
+categories: ["Meal Tray","Salad","Party"]
+types: ["Bowl"]
 productinfo:
   internetno: "D428"
   productno: "0-176"

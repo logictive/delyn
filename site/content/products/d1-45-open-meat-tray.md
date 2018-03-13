@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-132"
 imageurl: "/img/products/0-132.jpg"
 3d: "/3d/products/0-132-D1-45-TRAY.stl"
-category: ["Meal Tray","Meat & BBQ","Standards"]
-type: ["Tray"]
+categories: ["Meal Tray","Meat & BBQ","Standards"]
+types: ["Tray"]
 productinfo:
   internetno: "D395"
   productno: "0-132"

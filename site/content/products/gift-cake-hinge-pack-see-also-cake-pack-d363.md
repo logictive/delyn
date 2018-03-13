@@ -5,8 +5,8 @@ draft: false
 imagealt: ""
 imageurl: ""
 3d: "/3d/products/0-103-GIFT-CAKE-H-P.stl"
-category: ["Bakery"]
-type: ["Hinge Pack"]
+categories: ["Bakery"]
+types: ["Hinge Pack"]
 productinfo:
   internetno: "D372"
   productno: "0-103"

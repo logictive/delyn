@@ -5,8 +5,8 @@ draft: false
 imagealt: ["0-248 SMOOTHIE POT 90mm 7","0-248 SMOOTHIE POT 90mm 7%","0-248 SMOOTHIE POT 90mm 7%"]
 imageurl: ["/img/products/0-248-SMOOTHIE-POT-90mm-71.jpg","/img/products/0-248-SMOOTHIE-POT-90mm-7%1.jpg","/img/products/0-248-SMOOTHIE-POT-90mm-7%.jpg"]
 3d: "/3d/products/0-248-SMOOTHIE-POT-90mm-7%1.stl"
-category: ["Salad","Party","Snack"]
-type: ["Pot"]
+categories: ["Salad","Party","Snack"]
+types: ["Pot"]
 productinfo:
   internetno: "D509"
   productno: "0-248"

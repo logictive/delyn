@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-159 LARGE TERRINE WITH FEET"
 imageurl: "/img/products/0-159-LARGE-TERRINE-WITH-FEET.jpg"
 3d: "/3d/products/0-159-LARGE-TERRINE-WITH-FEET.stl"
-category: ["Bakery","Party","Display"]
-type: ["Tray"]
+categories: ["Bakery","Party","Display"]
+types: ["Tray"]
 productinfo:
   internetno: "D420"
   productno: "0-159"

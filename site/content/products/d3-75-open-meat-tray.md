@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-523 D3-75 TRAY"
 imageurl: "/img/products/0-523-D3-75-TRAY.jpg"
 3d: "/3d/products/0-523-D3-75-TRAY.stl"
-category: ["Meat & BBQ","Standards"]
-type: ["Tray"]
+categories: ["Meat & BBQ","Standards"]
+types: ["Tray"]
 productinfo:
   internetno: "D701"
   productno: "0-523"

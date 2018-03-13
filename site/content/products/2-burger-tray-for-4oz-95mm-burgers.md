@@ -5,8 +5,8 @@ draft: false
 imagealt: ""
 imageurl: ""
 3d: "/3d/products/0-170-2-X-4-SHALLOW-BURGER.stl"
-category: ["Meat & BBQ","Burger Trays"]
-type: ["Tray"]
+categories: ["Meat & BBQ","Burger Trays"]
+types: ["Tray"]
 productinfo:
   internetno: "D426"
   productno: "0-170"

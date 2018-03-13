@@ -3,18 +3,15 @@ languageCode = "en-gb"
 languageLang = "en-gb"
 title = "Delyn Packaging"
 
-# RSS, categories and tags disabled for an easy start
-# See configuration options for more details: 
-# https://gohugo.io/getting-started/configuration/#toml-configuration
-disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
+disableKinds = ["RSS"]
 
-[taxomomies]
+[taxonomies]
   type = "types"
   category = "categories"
 
 [permalinks]
-  types = "/products/:slug"
-  categories = "/products/:slug"
+  pages = "/:title"
+  posts = "/:title"
 
 [params]
   logo = ""

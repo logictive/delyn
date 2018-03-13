@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-130 167 x 155 x 40"
 imageurl: "/img/products/0-130-167-x-155-x-402.jpg"
 3d: "/3d/products/0-130-167-x-155-x-401.stl"
-category: ["Meat & BBQ"]
-type: ["Tray"]
+categories: ["Meat & BBQ"]
+types: ["Tray"]
 productinfo:
   internetno: "D394"
   productno: "0-131"

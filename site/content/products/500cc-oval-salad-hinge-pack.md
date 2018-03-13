@@ -5,8 +5,8 @@ draft: false
 imagealt: "000-7 500cc SALAD PACKS"
 imageurl: "/img/products/000-7-500cc-SALAD-PACKS.jpg"
 3d: "/3d/products/000-7-500cc-SALAD-PACKS.stl"
-category: ["Salad","Party","Snack"]
-type: ["Hinge Pack"]
+categories: ["Salad","Party","Snack"]
+types: ["Hinge Pack"]
 productinfo:
   internetno: "D303"
   productno: "000-7"

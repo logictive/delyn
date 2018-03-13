@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-564 R+R ICECREAM TUB LID"
 imageurl: "/img/products/0-564-R+R-ICECREAM-TUB-LID.jpg"
 3d: "/3d/products/0-564-R+R-ICECREAM-TUB-LID.stl"
-category: ["Ice Cream"]
-type: ["Lid"]
+categories: ["Ice Cream"]
+types: ["Lid"]
 productinfo:
   internetno: "D742"
   productno: "0-564"

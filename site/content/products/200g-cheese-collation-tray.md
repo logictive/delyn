@@ -5,8 +5,8 @@ draft: false
 imagealt: ""
 imageurl: ""
 3d: ""
-category: ["Display"]
-type: ["Collation"]
+categories: ["Display"]
+types: ["Collation"]
 productinfo:
   internetno: "D349"
   productno: "00-70"

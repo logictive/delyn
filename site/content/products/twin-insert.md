@@ -5,8 +5,8 @@ draft: false
 imagealt: ""
 imageurl: ""
 3d: ""
-category: ["Meal Tray","Bakery"]
-type: ["Tray"]
+categories: ["Meal Tray","Bakery"]
+types: ["Tray"]
 productinfo:
   internetno: "D452"
   productno: "0-199"

@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-457 4 CAVITY OFF SET TRAY"
 imageurl: "/img/products/0-457-4-CAVITY-OFF-SET-TRAY.jpg"
 3d: "/3d/products/0-457-4-CAVITY-OFF-SET-TRAY.stl"
-category: ["Party","Bakery","Snack"]
-type: ["Tray"]
+categories: ["Party","Bakery","Snack"]
+types: ["Tray"]
 productinfo:
   internetno: "D635"
   productno: "0-457"

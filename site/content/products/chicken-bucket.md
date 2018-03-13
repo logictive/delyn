@@ -5,8 +5,8 @@ draft: false
 imagealt: ""
 imageurl: ""
 3d: ""
-category: ["Meat & BBQ","Party"]
-type: ["Tray"]
+categories: ["Meat & BBQ","Party"]
+types: ["Tray"]
 productinfo:
   internetno: "D518"
   productno: "0-257"

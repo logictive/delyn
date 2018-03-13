@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-306 - 4348 POTATO SKINS AND DIP TRAY"
 imageurl: "/img/products/0-306-4348-POTATO-SKINS-AND-DIP-TRAY.jpg"
 3d: "/3d/products/0-306-4348-POTATO-SKINS-AND-DIP-TRAY.stl"
-category: ["Party","Snack"]
-type: ["Tray"]
+categories: ["Party","Snack"]
+types: ["Tray"]
 productinfo:
   internetno: "D538"
   productno: "0-306"

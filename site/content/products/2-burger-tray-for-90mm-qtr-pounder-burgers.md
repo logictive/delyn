@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-438  225 X 123 X 35-2 OVAL"
 imageurl: "/img/products/0-438-225-X-123-X-35-2-OVAL.jpg"
 3d: "/3d/products/0-438-225-X-123-X-35-2-OVAL.stl"
-category: ["Meat & BBQ","Burger Trays"]
-type: ["Tray"]
+categories: ["Meat & BBQ","Burger Trays"]
+types: ["Tray"]
 productinfo:
   internetno: "D613"
   productno: "0-438"

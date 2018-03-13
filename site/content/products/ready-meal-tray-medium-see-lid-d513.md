@@ -5,8 +5,8 @@ draft: false
 imagealt: ""
 imageurl: ""
 3d: ""
-category: ["Meal Tray"]
-type: ["Tray"]
+categories: ["Meal Tray"]
+types: ["Tray"]
 productinfo:
   internetno: "D512"
   productno: "0-251"

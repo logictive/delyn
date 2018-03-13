@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-481 T31 COLLATION TRAY"
 imageurl: "/img/products/0-481-T31-COLLATION-TRAY.jpg"
 3d: "/3d/products/0-481-T31-COLLATION-TRAY.stl"
-category: ["Display"]
-type: ["Tray"]
+categories: ["Display"]
+types: ["Tray"]
 productinfo:
   internetno: "D659"
   productno: "0-481"

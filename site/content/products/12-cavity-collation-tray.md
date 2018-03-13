@@ -5,8 +5,8 @@ draft: false
 imagealt: "00-42  12 CAVITY COLLATION TRAY"
 imageurl: "/img/products/00-42-12-CAVITY-COLLATION-TRAY.jpg"
 3d: "/3d/products/00-42-12-CAVITY-COLLATION-TRAY.stl"
-category: ["Display"]
-type: ["Collation"]
+categories: ["Display"]
+types: ["Collation"]
 productinfo:
   internetno: "D330"
   productno: "00-42"

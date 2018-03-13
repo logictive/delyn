@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-122 180g COLLATION TRAY 3d"
 imageurl: "/img/products/0-122-180g-COLLATION-TRAY-3d.jpg"
 3d: "/3d/products/0-122-180g-COLLATION-TRAY-3d.stl"
-category: ["Display"]
-type: ["Collation"]
+categories: ["Display"]
+types: ["Collation"]
 productinfo:
   internetno: "D386"
   productno: "0-122"

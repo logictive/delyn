@@ -5,8 +5,8 @@ draft: false
 imagealt: ""
 imageurl: ""
 3d: ""
-category: ["Party","Salad"]
-type: ["Hinge Pack"]
+categories: ["Party","Salad"]
+types: ["Hinge Pack"]
 productinfo:
   internetno: "D341"
   productno: "00-62"

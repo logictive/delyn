@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-121 D74-80 OPEN TRAY"
 imageurl: "/img/products/0-121-D74-80-OPEN-TRAY1.jpg"
 3d: "/3d/products/0-121-D74-80-OPEN-TRAY1.stl"
-category: ["Meat & BBQ","Standards"]
-type: ["Tray"]
+categories: ["Meat & BBQ","Standards"]
+types: ["Tray"]
 productinfo:
   internetno: "D385"
   productno: "0-121"

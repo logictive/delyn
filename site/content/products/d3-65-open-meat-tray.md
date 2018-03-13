@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-441"
 imageurl: "/img/products/0-441.jpg"
 3d: ""
-category: ["Meat & BBQ","Standards"]
-type: ["Tray"]
+categories: ["Meat & BBQ","Standards"]
+types: ["Tray"]
 productinfo:
   internetno: "D616"
   productno: "0-441"

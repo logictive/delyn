@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-192 100g POT"
 imageurl: "/img/products/0-192-100g-POT.jpg"
 3d: "/3d/products/0-192-100g-POT.stl"
-category: ["Snack","Salad","Party"]
-type: ["Pot"]
+categories: ["Snack","Salad","Party"]
+types: ["Pot"]
 productinfo:
   internetno: "D445"
   productno: "0-192"

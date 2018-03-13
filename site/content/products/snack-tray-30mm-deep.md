@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-508 PLASTIC-ALLY 30mm TRAY"
 imageurl: "/img/products/0-508-PLASTIC-ALLY-30mm-TRAY.jpg"
 3d: "/3d/products/0-508-PLASTIC-ALLY-30mm-TRAY.stl"
-category: ["Party","Snack"]
-type: ["Tray"]
+categories: ["Party","Snack"]
+types: ["Tray"]
 productinfo:
   internetno: "D686"
   productno: "0-508"

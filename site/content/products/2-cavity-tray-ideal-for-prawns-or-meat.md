@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-511 C2  30mm 2 CAVITY TRAY"
 imageurl: "/img/products/0-511-C2-30mm-2-CAVITY-TRAY.jpg"
 3d: "/3d/products/0-511-C2-30mm-2-CAVITY-TRAY.stl"
-category: ["Meat & BBQ","Snack","Standards"]
-type: ["Tray"]
+categories: ["Meat & BBQ","Snack","Standards"]
+types: ["Tray"]
 productinfo:
   internetno: "D689"
   productno: "0-511"

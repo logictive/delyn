@@ -1,0 +1,12 @@
+{{ define "main" }}
+  <main class="content {{ .Title }} category {{ .Section | urlize }}">
+    <ul class="productlist productlist--grid container">
+      {{ range .Data.Pages }}
+        <article>
+          <h2>{{ .Title }}</h2>
+          {{ .Content }}
+        </article>
+      {{ end }}
+    </section>
+  </main>
+{{end}}

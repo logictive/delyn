@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-527 PLASTIC-ALLY 12 CAVITY TRAY"
 imageurl: "/img/products/0-527-PLASTIC-ALLY-12-CAVITY-TRAY.jpg"
 3d: "/3d/products/0-527-PLASTIC-ALLY-12-CAVITY-TRAY.stl"
-category: ["Party","Snack"]
-type: ["Tray"]
+categories: ["Party","Snack"]
+types: ["Tray"]
 productinfo:
   internetno: "D705"
   productno: "0-527"

@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-560  300 X 200 X 28"
 imageurl: "/img/products/0-560-300-X-200-X-28.jpg"
 3d: "/3d/products/0-560-300-X-200-X-28.stl"
-category: ["Meat & BBQ","Party","Display"]
-type: ["Tray"]
+categories: ["Meat & BBQ","Party","Display"]
+types: ["Tray"]
 productinfo:
   internetno: "D738"
   productno: "0-560"

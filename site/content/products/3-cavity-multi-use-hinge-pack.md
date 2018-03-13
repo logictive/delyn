@@ -5,8 +5,8 @@ draft: false
 imagealt: ""
 imageurl: ""
 3d: ""
-category: ["Bakery","Salad","Party","Snack"]
-type: ["Hinge Pack"]
+categories: ["Bakery","Salad","Party","Snack"]
+types: ["Hinge Pack"]
 productinfo:
   internetno: "D337"
   productno: "00-58"

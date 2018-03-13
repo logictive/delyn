@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-554  MAP STACKER POT"
 imageurl: "/img/products/0-554-MAP-STACKER-POT.jpg"
 3d: "/3d/products/0-554-MAP-STACKER-POT.stl"
-category: ["Salad","Party","Snack"]
-type: ["Pot"]
+categories: ["Salad","Party","Snack"]
+types: ["Pot"]
 productinfo:
   internetno: "D732"
   productno: "0-554"

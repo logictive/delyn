@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-559 ANTI-PASTI FLAT LID"
 imageurl: "/img/products/0-559-ANTI-PASTI-FLAT-LID.jpg"
 3d: "/3d/products/0-559-KATSOURIS-ANTI-PASTI-FLAT-LID.stl"
-category: ["Salad","Party","Snack"]
-type: ["Lid"]
+categories: ["Salad","Party","Snack"]
+types: ["Lid"]
 productinfo:
   internetno: "D737"
   productno: "0-559"

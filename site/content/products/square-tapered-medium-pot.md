@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-474 SQUARE POT"
 imageurl: "/img/products/0-474-SQUARE-POT.jpg"
 3d: "/3d/products/0-474-SQUARE-POT.stl"
-category: ["Salad","Party","Snack","Bakery"]
-type: ["Tray"]
+categories: ["Salad","Party","Snack","Bakery"]
+types: ["Tray"]
 productinfo:
   internetno: "D652"
   productno: "0-474"

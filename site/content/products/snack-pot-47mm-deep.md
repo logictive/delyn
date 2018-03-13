@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-539  SHALLOW HEXAGNOL POT"
 imageurl: "/img/products/0-539-SHALLOW-HEXAGNOL-POT.jpg"
 3d: "/3d/products/0-539-SHALLOW-HEXAGNOL-POT.stl"
-category: ["Salad","Party","Snack"]
-type: ["Pot"]
+categories: ["Salad","Party","Snack"]
+types: ["Pot"]
 productinfo:
   internetno: "D717"
   productno: "0-539"

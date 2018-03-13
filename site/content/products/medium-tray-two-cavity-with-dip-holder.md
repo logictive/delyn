@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-521 MEDIUM TRAY  & DIP HOLDER"
 imageurl: "/img/products/0-521-MEDIUM-TRAY-DIP-HOLDER.jpg"
 3d: "/3d/products/0-521-MEDIUM-TRAY-DIP-HOLDER.stl"
-category: ["Party","Snack"]
-type: ["Tray"]
+categories: ["Party","Snack"]
+types: ["Tray"]
 productinfo:
   internetno: "D699"
   productno: "0-521"

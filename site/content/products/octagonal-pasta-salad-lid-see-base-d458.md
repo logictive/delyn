@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-203 OCTAGNOL PASTA LID"
 imageurl: "/img/products/0-203-OCTAGNOL-PASTA-LID.jpg"
 3d: ""
-category: ["Salad","Party","Snack"]
-type: ["Lid"]
+categories: ["Salad","Party","Snack"]
+types: ["Lid"]
 productinfo:
   internetno: "D460"
   productno: "0-203"

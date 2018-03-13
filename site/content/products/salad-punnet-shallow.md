@@ -5,8 +5,8 @@ draft: false
 imagealt: "00-78 SALAD PUNNET"
 imageurl: "/img/products/00-78-SALAD-PUNNET.jpg"
 3d: "/3d/products/00-78-SALAD-PUNNET.stl"
-category: ["Salad","Party","Snack"]
-type: ["Tray"]
+categories: ["Salad","Party","Snack"]
+types: ["Tray"]
 productinfo:
   internetno: "D357"
   productno: "00-78"

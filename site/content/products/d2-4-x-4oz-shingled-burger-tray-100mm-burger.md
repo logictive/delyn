@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-445 D2 BURGER"
 imageurl: "/img/products/0-445-D2-BURGER.jpg"
 3d: "/3d/products/0-445-D2-BURGER.stl"
-category: ["Meat & BBQ","Standards","Burger Trays"]
-type: ["Tray"]
+categories: ["Meat & BBQ","Standards","Burger Trays"]
+types: ["Tray"]
 productinfo:
   internetno: "D622"
   productno: "0-445"

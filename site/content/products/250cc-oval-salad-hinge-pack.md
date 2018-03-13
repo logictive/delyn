@@ -5,8 +5,8 @@ draft: false
 imagealt: "000-5 250 SALAD PACKS"
 imageurl: "/img/products/000-5-250-SALAD-PACKS.jpg"
 3d: "/3d/products/000-5-250-SALAD-PACKS.stl"
-category: ["Salad","Party","Snack"]
-type: ["Hinge Pack","Tray","Pot","Bowl"]
+categories: ["Salad","Party","Snack"]
+types: ["Hinge Pack","Tray","Pot","Bowl"]
 productinfo:
   internetno: "D301"
   productno: "000-5"

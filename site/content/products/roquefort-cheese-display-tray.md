@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-376-5141 T17 SRP ROQUEFORT TRAY"
 imageurl: "/img/products/0-376-5141-T17-SRP-ROQUEFORT-TRAY.jpg"
 3d: "/3d/products/0-376-5141-T17-SRP-ROQUEFORT-TRAY.stl"
-category: ["Display"]
-type: ["Tray"]
+categories: ["Display"]
+types: ["Tray"]
 productinfo:
   internetno: "D561"
   productno: "0-376"

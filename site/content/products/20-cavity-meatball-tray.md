@@ -5,8 +5,8 @@ draft: false
 imagealt: ""
 imageurl: ""
 3d: ""
-category: ["Meat & BBQ","Snack","Meatball Trays"]
-type: ["Tray"]
+categories: ["Meat & BBQ","Snack","Meatball Trays"]
+types: ["Tray"]
 productinfo:
   internetno: "D429"
   productno: "0-177"

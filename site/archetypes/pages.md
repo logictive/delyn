@@ -6,7 +6,6 @@ seoDescription: ""
 date: {{ .Date }}
 draft: true
 menu: "main"
-url: "/{{ .TranslationBaseName | urlize }}"
 headerimage: ""
 
 # Landing Page Banner

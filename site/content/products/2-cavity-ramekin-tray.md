@@ -5,8 +5,8 @@ draft: false
 imagealt: ""
 imageurl: ""
 3d: ""
-category: ["Bakery","Display"]
-type: ["Tray"]
+categories: ["Bakery","Display"]
+types: ["Tray"]
 productinfo:
   internetno: "D486"
   productno: "0-224"

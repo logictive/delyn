@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-110 2 CAVITY SWEETCORN TRAY"
 imageurl: "/img/products/0-110-2-CAVITY-SWEETCORN-TRAY.jpg"
 3d: ""
-category: ["Snack","Party","Meat & BBQ"]
-type: ["Tray"]
+categories: ["Snack","Party","Meat & BBQ"]
+types: ["Tray"]
 productinfo:
   internetno: "D377"
   productno: "0-110"

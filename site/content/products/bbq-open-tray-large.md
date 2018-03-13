@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-499  SMOOTH WALL BBQ TRAY"
 imageurl: "/img/products/0-499-SMOOTH-WALL-BBQ-TRAY.jpg"
 3d: "/3d/products/0-499-SMOOTH-WALL-BBQ-TRAY.stl"
-category: ["Meat & BBQ"]
-type: ["Tray"]
+categories: ["Meat & BBQ"]
+types: ["Tray"]
 productinfo:
   internetno: "D677"
   productno: "0-499"

@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-360-5020 HINGE PACK"
 imageurl: "/img/products/0-360-5020-HINGE-PACK.jpg"
 3d: "/3d/products/0-360-5020-HINGE-PACK.stl"
-category: ["Bakery"]
-type: ["Hinge Pack"]
+categories: ["Bakery"]
+types: ["Hinge Pack"]
 productinfo:
   internetno: "D555"
   productno: "0-360"

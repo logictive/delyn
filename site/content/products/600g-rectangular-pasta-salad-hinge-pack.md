@@ -5,8 +5,8 @@ draft: false
 imagealt: ""
 imageurl: ""
 3d: ""
-category: ["Salad","Party","Snack"]
-type: ["Hinge Pack"]
+categories: ["Salad","Party","Snack"]
+types: ["Hinge Pack"]
 productinfo:
   internetno: "D464"
   productno: "0-206"

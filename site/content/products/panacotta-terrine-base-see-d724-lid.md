@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-545  TERRINE LID"
 imageurl: "/img/products/0-545-TERRINE-LID.jpg"
 3d: "/3d/products/0-545-TERRINE-LID.stl"
-category: ["Bakery"]
-type: ["Tray"]
+categories: ["Bakery"]
+types: ["Tray"]
 productinfo:
   internetno: "D723"
   productno: "0-545"

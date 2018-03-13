@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-537   2 CAVITY SNACK POT"
 imageurl: "/img/products/0-537-2-CAVITY-SNACK-POT.jpg"
 3d: "/3d/products/0-537-2-CAVITY-SNACK-POT.stl"
-category: ["Salad","Snack"]
-type: ["Tray"]
+categories: ["Salad","Snack"]
+types: ["Tray"]
 productinfo:
   internetno: "D715"
   productno: "0-537"

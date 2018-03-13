@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-412  PLASTIC-ALLY 2cav TRAY 30mm"
 imageurl: "/img/products/0-412-PLASTIC-ALLY-2cav-TRAY-30mm.jpg"
 3d: "/3d/products/0-412-PLASTIC-ALLY-2cav-TRAY-30mm.stl"
-category: ["Snack"]
-type: ["Tray"]
+categories: ["Snack"]
+types: ["Tray"]
 productinfo:
   internetno: "D586"
   productno: "0-412"

@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-214 220 X 140 X 50 2 CAVITY BLACK"
 imageurl: "/img/products/0-214-220-X-140-X-50-2-CAVITY-BLACK.jpg"
 3d: ["/3d/products/0-214-220-X-140-X-50-2-CAVITY-BLACK1.stl","/3d/products/0-214-220-X-140-X-50-2-CAVITY-BLACK.stl"]
-category: ["Meat & BBQ"]
-type: ["Tray"]
+categories: ["Meat & BBQ"]
+types: ["Tray"]
 productinfo:
   internetno: "D474"
   productno: "0-214"

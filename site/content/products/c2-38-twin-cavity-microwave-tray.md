@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-556 C2 SANDWICH FILLER TRAY"
 imageurl: "/img/products/0-556-C2-SANDWICH-FILLER-TRAY.jpg"
 3d: "/3d/products/0-556-C2-SANDWICH-FILLER-TRAY.stl"
-category: ["Meat & BBQ","Meal Tray","Standards"]
-type: ["Tray"]
+categories: ["Meat & BBQ","Meal Tray","Standards"]
+types: ["Tray"]
 productinfo:
   internetno: "D734"
   productno: "0-556"

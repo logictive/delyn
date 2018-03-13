@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-362-5029 WES 6 TRAY"
 imageurl: "/img/products/0-362-5029-WES-6-TRAY.jpg"
 3d: "/3d/products/0-362-5029-WES-6-TRAY.stl"
-category: ["Meat & BBQ","Party","Snack"]
-type: ["Tray"]
+categories: ["Meat & BBQ","Party","Snack"]
+types: ["Tray"]
 productinfo:
   internetno: "D556"
   productno: "0-362"

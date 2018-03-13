@@ -62,6 +62,7 @@
 
 @media (--breakpoint-lg-up) {
   .section {
+    padding: 8rem 2rem;
 
     &-subheading {
       width: 50%;

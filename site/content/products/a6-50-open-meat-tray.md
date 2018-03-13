@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-512 D6-50"
 imageurl: "/img/products/0-512-D6-50.jpg"
 3d: "/3d/products/0-512-D6-50.stl"
-category: ["Meat & BBQ","Standards"]
-type: ["Tray"]
+categories: ["Meat & BBQ","Standards"]
+types: ["Tray"]
 productinfo:
   internetno: "D690"
   productno: "0-512"

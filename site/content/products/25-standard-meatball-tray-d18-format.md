@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-427 D18 25 CAVITY TRAY"
 imageurl: "/img/products/0-427-D18-25-CAVITY-TRAY.jpg"
 3d: "/3d/products/0-427-D18-25-CAVITY-TRAY.stl"
-category: ["Meat & BBQ","Snack","Standards","Meatball Trays"]
-type: ["Tray"]
+categories: ["Meat & BBQ","Snack","Standards","Meatball Trays"]
+types: ["Tray"]
 productinfo:
   internetno: "D602"
   productno: "0-427"

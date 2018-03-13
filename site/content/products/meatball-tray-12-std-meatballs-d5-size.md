@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-541  D5-12 CAVITY MEATBALL"
 imageurl: "/img/products/0-541-D5-12-CAVITY-MEATBALL.jpg"
 3d: "/3d/products/0-541-D5-12-CAVITY-MEATBALL.stl"
-category: ["Meat & BBQ","Snack","Standards","Meatball Trays"]
-type: ["Tray"]
+categories: ["Meat & BBQ","Snack","Standards","Meatball Trays"]
+types: ["Tray"]
 productinfo:
   internetno: "D719"
   productno: "0-541"

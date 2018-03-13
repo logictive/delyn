@@ -5,8 +5,8 @@ draft: false
 imagealt: ["00-11 HOT DOG HINGE PACK","00-11 HOT DOG HINGE PACK"]
 imageurl: ["/img/products/00-11-HOT-DOG-HINGE-PACK3.jpg","/img/products/00-11-HOT-DOG-HINGE-PACK2.jpg"]
 3d: ""
-category: ["Meal Tray","Salad","Party","Snack"]
-type: ["Hinge Pack"]
+categories: ["Meal Tray","Salad","Party","Snack"]
+types: ["Hinge Pack"]
 productinfo:
   internetno: "D307"
   productno: "00-11"

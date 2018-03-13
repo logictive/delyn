@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-354-4996 HINGE PACK"
 imageurl: "/img/products/0-354-4996-HINGE-PACK.jpg"
 3d: "/3d/products/0-354-4996-HINGE-PACK.stl"
-category: ["Bakery"]
-type: ["Hinge Pack"]
+categories: ["Bakery"]
+types: ["Hinge Pack"]
 productinfo:
   internetno: "D551"
   productno: "0-354"

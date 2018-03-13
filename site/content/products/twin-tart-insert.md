@@ -5,8 +5,8 @@ draft: false
 imagealt: ""
 imageurl: ""
 3d: "/3d/products/0-183-TWIN-TART-INSERT.stl"
-category: ["Bakery","Snack"]
-type: ["Insert"]
+categories: ["Bakery","Snack"]
+types: ["Insert"]
 productinfo:
   internetno: "D435"
   productno: "0-183"

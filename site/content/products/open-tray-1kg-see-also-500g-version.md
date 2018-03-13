@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-449 1 kg  OPEN TRAY"
 imageurl: "/img/products/0-449-1-kg-OPEN-TRAY.jpg"
 3d: "/3d/products/0-449-1-kg-OPEN-TRAY.stl"
-category: ["Salad","Party","Meat & BBQ","Standards"]
-type: ["Tray"]
+categories: ["Salad","Party","Meat & BBQ","Standards"]
+types: ["Tray"]
 productinfo:
   internetno: "D626"
   productno: "0-449"

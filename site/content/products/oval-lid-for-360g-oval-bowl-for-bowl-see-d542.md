@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-340 - 4878 OVAL LID"
 imageurl: "/img/products/0-340-4878-OVAL-LID.jpg"
 3d: "/3d/products/0-340-4878-OVAL-LID.stl"
-category: ["Salad","Party","Snack"]
-type: ["Lid"]
+categories: ["Salad","Party","Snack"]
+types: ["Lid"]
 productinfo:
   internetno: "D541"
   productno: "0-340"

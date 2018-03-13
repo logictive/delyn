@@ -5,8 +5,8 @@ draft: false
 imagealt: ["0-196","0-196 1kg Bulk Pack Base","0-196 1kg Bulk Pack & Lid"]
 imageurl: ["/img/products/0-196.jpg","/img/products/0-196-1kg-Bulk-Pack-Base.jpg","/img/products/0-196-1kg-Bulk-Pack-Lid.jpg"]
 3d: ["/3d/products/0-196-1KG-BULK-PACK3.stl","/3d/products/0-196-1KG-BULK-PACK2.stl","/3d/products/0-196-1KG-BULK-PACK1.stl","/3d/products/0-196-1KG-BULK-PACK.stl","/3d/products/0-195-2KG-BULK-PACK.stl"]
-category: ["Salad","Party"]
-type: ["Tray"]
+categories: ["Salad","Party"]
+types: ["Tray"]
 productinfo:
   internetno: "D449"
   productno: "0-196"

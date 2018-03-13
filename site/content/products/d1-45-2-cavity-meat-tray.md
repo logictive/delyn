@@ -5,8 +5,8 @@ draft: false
 imagealt: ""
 imageurl: ""
 3d: ""
-category: ["Meat & BBQ","Standards"]
-type: ["Tray"]
+categories: ["Meat & BBQ","Standards"]
+types: ["Tray"]
 productinfo:
   internetno: "D504"
   productno: "0-241"

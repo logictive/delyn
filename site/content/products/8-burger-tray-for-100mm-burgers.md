@@ -5,8 +5,8 @@ draft: false
 imagealt: ""
 imageurl: ""
 3d: "/3d/products/0-260-8-X-AA-BURGER.stl"
-category: ["Meat & BBQ","Burger Trays"]
-type: ["Tray"]
+categories: ["Meat & BBQ","Burger Trays"]
+types: ["Tray"]
 productinfo:
   internetno: "D521"
   productno: "0-260"

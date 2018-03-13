@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-460 200x165x40 9 CAV SAUSAE AND MEATBALL TRAY"
 imageurl: "/img/products/0-460-200x165x40-9-CAV-SAUSAE-AND-MEATBALL-TRAY.jpg"
 3d: "/3d/products/0-460-200x165x40-9-CAV-SAUSAE-AND-MEATBALL-TRAY.stl"
-category: ["Meat & BBQ","Snack","Meatball Trays"]
-type: ["Tray"]
+categories: ["Meat & BBQ","Snack","Meatball Trays"]
+types: ["Tray"]
 productinfo:
   internetno: "D638"
   productno: "0-460"

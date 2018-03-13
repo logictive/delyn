@@ -5,8 +5,8 @@ draft: false
 imagealt: ["0-426 TENDERCUTS T-10-50 TRAY","0-426 TENDERCUTS T-10-50 TRAY"]
 imageurl: ["/img/products/0-426-TENDERCUTS-T-10-50-TRAY1.jpg","/img/products/0-426-TENDERCUTS-T-10-50-TRAY.jpg"]
 3d: "/3d/products/0-426-TENDERCUTS-T-10-50-TRAY.stl"
-category: ["Meat & BBQ","Standards"]
-type: ["Tray"]
+categories: ["Meat & BBQ","Standards"]
+types: ["Tray"]
 productinfo:
   internetno: "D601"
   productno: "0-426"

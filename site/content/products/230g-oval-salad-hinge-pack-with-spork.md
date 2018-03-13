@@ -5,8 +5,8 @@ draft: false
 imagealt: "00-53  CONTINENTAL SALAD PACK"
 imageurl: "/img/products/00-53-CONTINENTAL-SALAD-PACK.jpg"
 3d: "/3d/products/00-53-CONTINENTAL-SALAD-PACK.stl"
-category: ["Salad","Party","Snack"]
-type: ["Hinge Pack"]
+categories: ["Salad","Party","Snack"]
+types: ["Hinge Pack"]
 productinfo:
   internetno: "D334"
   productno: "00-53"

@@ -5,8 +5,8 @@ draft: false
 imagealt: ["0-117","0-247 125g LOG POT"]
 imageurl: ["/img/products/0-117.jpg","/img/products/0-247-125g-LOG-POT2.jpg"]
 3d: ["/3d/products/0-117-D1-75-TRAY.stl","/3d/products/0-247-125g-LOG-POT2.stl"]
-category: ["Meat & BBQ","Meal Tray","Standards"]
-type: ["Tray"]
+categories: ["Meat & BBQ","Meal Tray","Standards"]
+types: ["Tray"]
 productinfo:
   internetno: "D384"
   productno: "0-117"

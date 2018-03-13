@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-347-4924 LARGE PLATTER BASE"
 imageurl: "/img/products/0-347-4924-LARGE-PLATTER-BASE.jpg"
 3d: "/3d/products/0-347-4924-LARGE-PLATTER-BASE.stl"
-category: ["Party"]
-type: ["Base"]
+categories: ["Party"]
+types: ["Base"]
 productinfo:
   internetno: "D545"
   productno: "0-347"

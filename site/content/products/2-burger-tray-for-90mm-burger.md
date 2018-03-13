@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-454 35 MM BURGER TRAY"
 imageurl: "/img/products/0-454-35-MM-BURGER-TRAY.jpg"
 3d: "/3d/products/0-454-35-MM-BURGER-TRAY.stl"
-category: ["Meat & BBQ","Burger Trays"]
-type: ["Tray"]
+categories: ["Meat & BBQ","Burger Trays"]
+types: ["Tray"]
 productinfo:
   internetno: "D632"
   productno: "0-454"

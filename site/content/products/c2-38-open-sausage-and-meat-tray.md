@@ -5,8 +5,8 @@ draft: false
 imagealt: ["P1020463 (Large) (Mobile)","0-515  C2-38 OPEN TRAY BLACK"]
 imageurl: ["/img/products/P1020463-Large-Mobile.jpg","/img/products/0-515-C2-38-OPEN-TRAY-BLACK.jpg"]
 3d: "/3d/products/0-515-C2-38-OPEN-TRAY-BLACK.stl"
-category: ["Meat & BBQ","Standards"]
-type: ["Tray"]
+categories: ["Meat & BBQ","Standards"]
+types: ["Tray"]
 productinfo:
   internetno: "D693"
   productno: "0-515"

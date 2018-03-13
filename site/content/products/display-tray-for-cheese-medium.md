@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-526 MEDIUM 1 X 6 SOT"
 imageurl: "/img/products/0-526-MEDIUM-1-X-6-SOT.jpg"
 3d: "/3d/products/0-526-MEDIUM-1-X-6-SOT.stl"
-category: ["Display"]
-type: ["SOT"]
+categories: ["Display"]
+types: ["SOT"]
 productinfo:
   internetno: "D704"
   productno: "0-526"

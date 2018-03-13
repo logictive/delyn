@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-513 D15 - SHINGLED BURGER  TRAY"
 imageurl: "/img/products/0-513-D15-SHINGLED-BURGER-TRAY.jpg"
 3d: "/3d/products/0-513-D15-SHINGLED-BURGER-TRAY.stl"
-category: ["Meat & BBQ","Standards","Burger Trays"]
-type: ["Tray"]
+categories: ["Meat & BBQ","Standards","Burger Trays"]
+types: ["Tray"]
 productinfo:
   internetno: "D691"
   productno: "0-513"

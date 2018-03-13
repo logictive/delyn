@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-482 SHALLOW INSERT TRAY"
 imageurl: "/img/products/0-482-SHALLOW-INSERT-TRAY.jpg"
 3d: "/3d/products/0-482-SHALLOW-INSERT-TRAY.stl"
-category: ["Meat & BBQ","Bakery","Snack"]
-type: ["Tray"]
+categories: ["Meat & BBQ","Bakery","Snack"]
+types: ["Tray"]
 productinfo:
   internetno: "D660"
   productno: "0-482"

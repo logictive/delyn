@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-187"
 imageurl: "/img/products/0-187.jpg"
 3d: "/3d/products/0-187-D15-100-TRAY-3D.stl"
-category: ["Meat & BBQ","Standards"]
-type: ["Tray"]
+categories: ["Meat & BBQ","Standards"]
+types: ["Tray"]
 productinfo:
   internetno: "D439"
   productno: "0-187"

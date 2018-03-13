@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-127 200x165x50 4 cav"
 imageurl: "/img/products/0-127-200x165x50-4-cav1.jpg"
 3d: ""
-category: ["Meat & BBQ","Snack"]
-type: ["Tray"]
+categories: ["Meat & BBQ","Snack"]
+types: ["Tray"]
 productinfo:
   internetno: "D390"
   productno: "0-127"

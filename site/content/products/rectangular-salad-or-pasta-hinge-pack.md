@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-424 HINGE PACK"
 imageurl: "/img/products/0-424-HINGE-PACK.jpg"
 3d: "/3d/products/0-424-HINGE-PACK.stl"
-category: ["Salad","Party","Snack"]
-type: ["Pot"]
+categories: ["Salad","Party","Snack"]
+types: ["Pot"]
 productinfo:
   internetno: "D599"
   productno: "0-424"

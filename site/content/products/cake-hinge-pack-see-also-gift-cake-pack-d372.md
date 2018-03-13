@@ -5,8 +5,8 @@ draft: false
 imagealt: ""
 imageurl: ""
 3d: "/3d/products/00-83-GIFT-CRUMBLE-CAKE-H-P.stl"
-category: ["Bakery"]
-type: ["Hinge Pack"]
+categories: ["Bakery"]
+types: ["Hinge Pack"]
 productinfo:
   internetno: "D363"
   productno: "00-83"

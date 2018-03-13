@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-154 LARGE TWIN CHEESE CAKE"
 imageurl: "/img/products/0-154-LARGE-TWIN-CHEESE-CAKE.jpg"
 3d: "/3d/products/0-154-LARGE-TWIN-CHEESE-CAKE.stl"
-category: ["Bakery"]
-type: ["Hinge Pack"]
+categories: ["Bakery"]
+types: ["Hinge Pack"]
 productinfo:
   internetno: "D417"
   productno: "0-154"

@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-407 - 5333 2 CAVITY OPEN TRAY"
 imageurl: "/img/products/0-407-5333-2-CAVITY-OPEN-TRAY.jpg"
 3d: "/3d/products/0-407-5333-2-CAVITY-OPEN-TRAY.stl"
-category: ["Snack"]
-type: ["Tray"]
+categories: ["Snack"]
+types: ["Tray"]
 productinfo:
   internetno: "D582"
   productno: "0-407"

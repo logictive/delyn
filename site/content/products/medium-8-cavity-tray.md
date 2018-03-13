@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-485 MEDIUM 8 CAVITY TRAY  BLACK"
 imageurl: "/img/products/0-485-MEDIUM-8-CAVITY-TRAY-BLACK.jpg"
 3d: "/3d/products/0-485-MEDIUM-8-CAVITY-TRAY-BLACK.stl"
-category: ["Party","Snack"]
-type: ["Tray"]
+categories: ["Party","Snack"]
+types: ["Tray"]
 productinfo:
   internetno: "D663"
   productno: "0-485"

@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-404 - 4629 SINGLE CHEESE CAKE"
 imageurl: "/img/products/0-404-4629-SINGLE-CHEESE-CAKE.jpg"
 3d: "/3d/products/0-404-4629-SINGLE-CHEESE-CAKE.stl"
-category: ["Bakery"]
-type: ["Hinge Pack"]
+categories: ["Bakery"]
+types: ["Hinge Pack"]
 productinfo:
   internetno: "D579"
   productno: "0-404"

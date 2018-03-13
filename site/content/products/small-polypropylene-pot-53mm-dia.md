@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-444 53mm DIAMITER POT"
 imageurl: "/img/products/0-444-53mm-DIAMITER-POT.jpg"
 3d: "/3d/products/0-444-53mm-DIAMITER-POT.stl"
-category: ["Meal Tray","Salad","Party","Snack"]
-type: ["Pot"]
+categories: ["Meal Tray","Salad","Party","Snack"]
+types: ["Pot"]
 productinfo:
   internetno: "D621"
   productno: "0-444"

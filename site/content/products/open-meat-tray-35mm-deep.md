@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-567"
 imageurl: "/img/products/0-567.jpg"
 3d: ["/3d/products/0-567-SHALLOW-FILLET-TRAY-3D1.stl","/3d/products/0-567-SHALLOW-FILLET-TRAY1.stl","/3d/products/0-567-SHALLOW-FILLET-TRAY-3D.stl","/3d/products/0-567-SHALLOW-FILLET-TRAY.stl"]
-category: ["Meat & BBQ"]
-type: ["Tray"]
+categories: ["Meat & BBQ"]
+types: ["Tray"]
 productinfo:
   internetno: "D745"
   productno: "0-567"

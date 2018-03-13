@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-563 R+R ICECREAM TUB"
 imageurl: "/img/products/0-563-R+R-ICECREAM-TUB.jpg"
 3d: "/3d/products/0-563-R+R-ICECREAM-TUB.stl"
-category: ["Ice Cream"]
-type: ["Tray"]
+categories: ["Ice Cream"]
+types: ["Tray"]
 productinfo:
   internetno: "D741"
   productno: "0-563"

@@ -5,8 +5,8 @@ draft: false
 imagealt: ["0-403 6x4oz BURGER","0-493 LARGE SQUARE POT"]
 imageurl: ["/img/products/0-403-6x4oz-BURGER1.jpg","/img/products/0-493-LARGE-SQUARE-POT1.jpg"]
 3d: ["/3d/products/0-403-6x4oz-BURGER.stl","/3d/products/0-403-DAWNPAC-6x4oz-BURGER1.stl"]
-category: ["Meat & BBQ","Burger Trays"]
-type: ["Tray"]
+categories: ["Meat & BBQ","Burger Trays"]
+types: ["Tray"]
 productinfo:
   internetno: "D578"
   productno: "0-403"

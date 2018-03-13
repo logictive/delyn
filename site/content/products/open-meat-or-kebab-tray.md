@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-465 KOFFTA 37mm DEEP"
 imageurl: "/img/products/0-465-KOFFTA-37mm-DEEP.jpg"
 3d: "/3d/products/0-465-KOFFTA-37mm-DEEP.stl"
-category: ["Meat & BBQ"]
-type: ["Tray"]
+categories: ["Meat & BBQ"]
+types: ["Tray"]
 productinfo:
   internetno: "D643"
   productno: "0-465"

@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-446 200 x 165 x 110"
 imageurl: "/img/products/0-446-200-x-165-x-110.jpg"
 3d: "/3d/products/0-446-200-x-165-x-110.stl"
-category: ["Meat & BBQ"]
-type: ["Tray"]
+categories: ["Meat & BBQ"]
+types: ["Tray"]
 productinfo:
   internetno: "D623"
   productno: "0-446"

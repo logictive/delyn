@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-467 158 x 152 x 22 OPEN POLY-PROP TRAY"
 imageurl: "/img/products/0-467-158-x-152-x-22-OPEN-POLY-PROP-TRAY.jpg"
 3d: "/3d/products/0-467-158-x-152-x-22-OPEN-POLY-PROP-TRAY.stl"
-category: ["Snack"]
-type: ["Tray"]
+categories: ["Snack"]
+types: ["Tray"]
 productinfo:
   internetno: "D645"
   productno: "0-467"

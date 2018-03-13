@@ -5,8 +5,8 @@ draft: false
 imagealt: ""
 imageurl: ""
 3d: ""
-category: ["Meat & BBQ","Meal Tray","Snack","Party","Standards"]
-type: ["Tray"]
+categories: ["Meat & BBQ","Meal Tray","Snack","Party","Standards"]
+types: ["Tray"]
 productinfo:
   internetno: "D485"
   productno: "0-223"

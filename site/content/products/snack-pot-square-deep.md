@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-431 200g SQUARE POT"
 imageurl: "/img/products/0-431-200g-SQUARE-POT.jpg"
 3d: "/3d/products/0-431-200g-SQUARE-OLIVE-TRAYS.stl"
-category: ["Party","Snack","Salad"]
-type: ["Pot"]
+categories: ["Party","Snack","Salad"]
+types: ["Pot"]
 productinfo:
   internetno: "D606"
   productno: "0-431"

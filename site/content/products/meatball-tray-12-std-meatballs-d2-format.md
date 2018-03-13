@@ -5,8 +5,8 @@ draft: false
 imagealt: ""
 imageurl: ""
 3d: "/3d/products/0-259-D2-12-CAVITY-MEATBALL.stl"
-category: ["Meat & BBQ","Snack","Standards","Meatball Trays"]
-type: ["Multi-Cavity"]
+categories: ["Meat & BBQ","Snack","Standards","Meatball Trays"]
+types: ["Multi-Cavity"]
 productinfo:
   internetno: "D520"
   productno: "0-259"

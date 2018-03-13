@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-530 5 CAVITY  PLATTER"
 imageurl: "/img/products/0-530-5-CAVITY-PLATTER.jpg"
 3d: "/3d/products/0-530-5-CAVITY-PLATTER.stl"
-category: ["Party","Snack"]
-type: ["Tray"]
+categories: ["Party","Snack"]
+types: ["Tray"]
 productinfo:
   internetno: "D708"
   productno: "0-530"

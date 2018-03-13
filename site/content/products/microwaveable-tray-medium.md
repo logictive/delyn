@@ -5,8 +5,8 @@ draft: false
 imagealt: ""
 imageurl: ""
 3d: ""
-category: ["Meal Tray","Party","Snack"]
-type: ["Tray"]
+categories: ["Meal Tray","Party","Snack"]
+types: ["Tray"]
 productinfo:
   internetno: "D721"
   productno: "0-543"

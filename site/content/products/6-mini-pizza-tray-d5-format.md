@@ -5,8 +5,8 @@ draft: false
 imagealt: ""
 imageurl: ""
 3d: ""
-category: ["Party","Snack","Standards"]
-type: ["Tray"]
+categories: ["Party","Snack","Standards"]
+types: ["Tray"]
 productinfo:
   internetno: "D502"
   productno: "0-239"

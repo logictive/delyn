@@ -5,8 +5,8 @@ draft: false
 imagealt: ["Pot Small Square","D552"]
 imageurl: ["/img/products/Pot-Small-Square.jpg","/img/products/D552.jpg"]
 3d: "/3d/products/0-355-4997-SQUARE-POT-3D.stl"
-category: ["Salad","Party","Snack"]
-type: ["Tray"]
+categories: ["Salad","Party","Snack"]
+types: ["Tray"]
 productinfo:
   internetno: "D552"
   productno: "0-355"

@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-510 55mm ROUND POT"
 imageurl: "/img/products/0-510-55mm-ROUND-POT.jpg"
 3d: "/3d/products/0-510-55mm-ROUND-POT.stl"
-category: ["Salad","Party","Snack"]
-type: ["Pot"]
+categories: ["Salad","Party","Snack"]
+types: ["Pot"]
 productinfo:
   internetno: "D688"
   productno: "0-510"

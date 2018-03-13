@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-479  TAPERNADE POT 25mm"
 imageurl: "/img/products/0-479-TAPERNADE-POT-25mm.jpg"
 3d: "/3d/products/0-479-TAPERNADE-POT-25mm.stl"
-category: ["Salad","Party","Snack"]
-type: ["Tray"]
+categories: ["Salad","Party","Snack"]
+types: ["Tray"]
 productinfo:
   internetno: "D657"
   productno: "0-479"

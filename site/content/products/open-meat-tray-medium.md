@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-263 CLEAR MINCE TRAY"
 imageurl: "/img/products/0-263-CLEAR-MINCE-TRAY1.jpg"
 3d: "/3d/products/0-263-CLEAR-MINCE-TRAY.stl"
-category: ["Meat & BBQ"]
-type: ["Tray"]
+categories: ["Meat & BBQ"]
+types: ["Tray"]
 productinfo:
   internetno: "D524"
   productno: "0-263"

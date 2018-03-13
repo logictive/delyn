@@ -5,8 +5,8 @@ draft: false
 imagealt: "00-78"
 imageurl: "/img/products/00-78.jpg"
 3d: "/3d/products/00-78-STEAK-KIDNEY-3D.stl"
-category: ["Meat & BBQ"]
-type: ["Tray"]
+categories: ["Meat & BBQ"]
+types: ["Tray"]
 productinfo:
   internetno: "D356"
   productno: "00-78"

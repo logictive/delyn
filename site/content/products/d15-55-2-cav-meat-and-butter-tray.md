@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-264"
 imageurl: "/img/products/0-264.jpg"
 3d: ["/3d/products/0-264-D15-PORK-BUTTER-TRAY6.stl","/3d/products/0-264-D15-PORK-BUTTER-TRAY5.stl","/3d/products/0-264-D15-3D-pdf-PORK-BUTTER-TRAY..stl","/3d/products/0-264-D15-PORK-BUTTER-TRAY4.stl","/3d/products/0-264-D15-PORK-BUTTER-TRAY.stl"]
-category: ["Meat & BBQ","Standards"]
-type: ["Tray"]
+categories: ["Meat & BBQ","Standards"]
+types: ["Tray"]
 productinfo:
   internetno: "D525"
   productno: "0-264"

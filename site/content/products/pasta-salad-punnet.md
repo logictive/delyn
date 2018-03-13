@@ -5,8 +5,8 @@ draft: false
 imagealt: ""
 imageurl: ""
 3d: "/3d/products/0-180-PUNNET.stl"
-category: ["Salad","Party","Snack"]
-type: ["Tray"]
+categories: ["Salad","Party","Snack"]
+types: ["Tray"]
 productinfo:
   internetno: "D432"
   productno: "0-180"

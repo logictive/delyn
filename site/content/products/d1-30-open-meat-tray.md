@@ -5,8 +5,8 @@ draft: false
 imagealt: ["0-116 D1-30 TRAY 3d","00-30 SUSHI BASE"]
 imageurl: ["/img/products/0-116-D1-30-TRAY-3d.jpg","/img/products/00-30-SUSHI-BASE2.jpg"]
 3d: ["/3d/products/0-116-D1-30-TRAY-3d.stl","/3d/products/00-30-SUSHI-BASE1.stl"]
-category: ["Meat & BBQ","Standards"]
-type: ["Tray"]
+categories: ["Meat & BBQ","Standards"]
+types: ["Tray"]
 productinfo:
   internetno: "D383"
   productno: "0-116"

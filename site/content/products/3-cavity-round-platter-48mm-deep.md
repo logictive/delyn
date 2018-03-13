@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-352-4992 ROUND 3 CAVITY TRAY"
 imageurl: "/img/products/0-352-4992-ROUND-3-CAVITY-TRAY.jpg"
 3d: "/3d/products/0-352-4992-ROUND-3-CAVITY-TRAY.stl"
-category: ["Party","Snack"]
-type: ["Tray"]
+categories: ["Party","Snack"]
+types: ["Tray"]
 productinfo:
   internetno: "D549"
   productno: "0-352"

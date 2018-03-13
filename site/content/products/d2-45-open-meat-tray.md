@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-410 NEW D2 45 TRAY"
 imageurl: "/img/products/0-410-NEW-D2-45-TRAY1.jpg"
 3d: "/3d/products/0-410-NEW-D2-45-TRAY1.stl"
-category: ["Meat & BBQ","Standards"]
-type: ["Tray"]
+categories: ["Meat & BBQ","Standards"]
+types: ["Tray"]
 productinfo:
   internetno: "D584"
   productno: "0-410"

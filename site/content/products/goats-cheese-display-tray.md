@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-374-5138 CHEESE"
 imageurl: "/img/products/0-374-5138-CHEESE.jpg"
 3d: "/3d/products/0-374-5138-EURALAIT-CHEESE.stl"
-category: ["Display"]
-type: ["Tray"]
+categories: ["Display"]
+types: ["Tray"]
 productinfo:
   internetno: "D559"
   productno: "0-374"

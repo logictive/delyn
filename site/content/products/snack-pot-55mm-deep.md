@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-549 OCTAGONAL POT"
 imageurl: "/img/products/0-549-OCTAGONAL-POT.jpg"
 3d: "/3d/products/0-549-OCTAGONAL-POT.stl"
-category: ["Salad","Party","Snack"]
-type: ["Pot"]
+categories: ["Salad","Party","Snack"]
+types: ["Pot"]
 productinfo:
   internetno: "D727"
   productno: "0-549"

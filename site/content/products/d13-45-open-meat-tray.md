@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-437  D13 45   TRAY"
 imageurl: "/img/products/0-437-D13-45-TRAY.jpg"
 3d: "/3d/products/0-437-D13-45-TRAY.stl"
-category: ["Meat & BBQ","Standards"]
-type: ["Tray"]
+categories: ["Meat & BBQ","Standards"]
+types: ["Tray"]
 productinfo:
   internetno: "D612"
   productno: "0-437"

@@ -5,8 +5,8 @@ draft: false
 imagealt: ""
 imageurl: ""
 3d: ""
-category: ["Salad","Party"]
-type: ["Bowl"]
+categories: ["Salad","Party"]
+types: ["Bowl"]
 productinfo:
   internetno: "D451"
   productno: "0-198"

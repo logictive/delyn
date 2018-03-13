@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-538  HOLLOUMI SKEWER TRAY"
 imageurl: "/img/products/0-538-HOLLOUMI-SKEWER-TRAY.jpg"
 3d: "/3d/products/0-538-HOLLOUMI-SKEWER-TRAY.stl"
-category: ["Salad","Meal Tray","Meat & BBQ"]
-type: ["Tray"]
+categories: ["Salad","Meal Tray","Meat & BBQ"]
+types: ["Tray"]
 productinfo:
   internetno: "D716"
   productno: "0-538"

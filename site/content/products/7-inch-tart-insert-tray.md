@@ -5,8 +5,8 @@ draft: false
 imagealt: ""
 imageurl: ""
 3d: ""
-category: ["Bakery","Display"]
-type: ["Insert"]
+categories: ["Bakery","Display"]
+types: ["Insert"]
 productinfo:
   internetno: "D376"
   productno: "0-107"

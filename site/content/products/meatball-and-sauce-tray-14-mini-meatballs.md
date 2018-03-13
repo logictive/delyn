@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-497 MEATBALL AND SAUCE TRAY"
 imageurl: "/img/products/0-497-MEATBALL-AND-SAUCE-TRAY.jpg"
 3d: "/3d/products/0-497-MEATBALL-AND-SAUCE-TRAY.stl"
-category: ["Meat & BBQ","Snack","Meatball Trays"]
-type: ["Tray"]
+categories: ["Meat & BBQ","Snack","Meatball Trays"]
+types: ["Tray"]
 productinfo:
   internetno: "D675"
   productno: "0-497"

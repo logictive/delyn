@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-561  SKIN PACK 200 X 140 X 13"
 imageurl: "/img/products/0-561-SKIN-PACK-200-X-140-X-13.jpg"
 3d: "/3d/products/0-561-SKIN-PACK-200-X-140-X-13.stl"
-category: ["Meat & BBQ"]
-type: ["Tray"]
+categories: ["Meat & BBQ"]
+types: ["Tray"]
 productinfo:
   internetno: "D739"
   productno: "0-561"

@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-204 250g TROY HINGE PACK"
 imageurl: "/img/products/0-204-250g-TROY-HINGE-PACK.jpg"
 3d: ""
-category: ["Salad","Party","Snack"]
-type: ["Hinge Pack"]
+categories: ["Salad","Party","Snack"]
+types: ["Hinge Pack"]
 productinfo:
   internetno: "D462"
   productno: "0-204"

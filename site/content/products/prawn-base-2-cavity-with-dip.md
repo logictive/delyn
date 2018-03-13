@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-394 PRAWN BASE TWIN CAV"
 imageurl: "/img/products/0-394-PRAWN-BASE-TWIN-CAV1.jpg"
 3d: "/3d/products/0-394-PRAWN-BASE-TWIN-CAV1.stl"
-category: ["Snack","Salad","Party"]
-type: ["Tray"]
+categories: ["Snack","Salad","Party"]
+types: ["Tray"]
 productinfo:
   internetno: "D570"
   productno: "0-394"

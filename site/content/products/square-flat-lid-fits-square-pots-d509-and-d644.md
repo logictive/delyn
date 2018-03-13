@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-471 SMOOTHIE POT LID"
 imageurl: "/img/products/0-471-SMOOTHIE-POT-LID-.jpg"
 3d: "/3d/products/0-471-SMOOTHIE-POT-LID-.stl"
-category: ["Salad","Party","Snack"]
-type: ["Lid"]
+categories: ["Salad","Party","Snack"]
+types: ["Lid"]
 productinfo:
   internetno: "D649"
   productno: "0-471"

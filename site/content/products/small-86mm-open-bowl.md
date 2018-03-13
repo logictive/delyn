@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-484  86mm SMALL OPEN BOWL"
 imageurl: "/img/products/0-484-86mm-SMALL-OPEN-BOWL.jpg"
 3d: "/3d/products/0-484-86mm-SMALL-OPEN-BOWL.stl"
-category: ["Salad","Bakery","Snack"]
-type: ["Bowl"]
+categories: ["Salad","Bakery","Snack"]
+types: ["Bowl"]
 productinfo:
   internetno: "D662"
   productno: "0-484"

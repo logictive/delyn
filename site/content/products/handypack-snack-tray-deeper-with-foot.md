@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-399  DEEPER STAND UP HANDY PACK"
 imageurl: "/img/products/0-399-DEEPER-STAND-UP-HANDY-PACK1.jpg"
 3d: "/3d/products/0-399-DEEPER-STAND-UP-HANDY-PACK1.stl"
-category: ["Snack","Salad","Party"]
-type: ["Tray"]
+categories: ["Snack","Salad","Party"]
+types: ["Tray"]
 productinfo:
   internetno: "D575"
   productno: "0-399"

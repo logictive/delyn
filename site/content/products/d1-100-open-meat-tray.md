@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-473  D1-100 SMOOTH WALL"
 imageurl: "/img/products/0-473-D1-100-SMOOTH-WALL1.jpg"
 3d: "/3d/products/0-473-D1-100-SMOOTH-WALL.stl"
-category: ["Meat & BBQ","Standards"]
-type: ["Tray"]
+categories: ["Meat & BBQ","Standards"]
+types: ["Tray"]
 productinfo:
   internetno: "D651"
   productno: "0-473"

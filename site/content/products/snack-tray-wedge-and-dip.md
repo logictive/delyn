@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-406 - 4615 WEDGE AND DIP TRAY"
 imageurl: "/img/products/0-406-4615-WEDGE-AND-DIP-TRAY.jpg"
 3d: "/3d/products/0-406-4615-WEDGE-AND-DIP-TRAY.stl"
-category: ["Party","Meal Tray","Snack"]
-type: ["Tray"]
+categories: ["Party","Meal Tray","Snack"]
+types: ["Tray"]
 productinfo:
   internetno: "D581"
   productno: "0-406"

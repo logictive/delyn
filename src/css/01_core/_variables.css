@@ -19,7 +19,11 @@
   --state-primary: var(--color-yellow);
   --state-secondary: var(--color-navy);
 
+  /* Components */
+  --component-bg-color: #fff;
+
   /* Content */
+  --body-bg-color: #f7f7f7;
   --font-family: var(--font-serif);
   --headings-font-family: var(--font-sans-serif);
   --headings-font-weight: var(--font-weight-bold);

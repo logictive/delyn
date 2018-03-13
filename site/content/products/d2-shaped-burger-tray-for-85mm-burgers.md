@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-478  D2 SHAPED BURGER"
 imageurl: "/img/products/0-478-D2-SHAPED-BURGER.jpg"
 3d: "/3d/products/0-478-D2-SHAPED-BURGER.stl"
-category: ["Meat & BBQ","Standards","Burger Trays"]
-type: ["Tray"]
+categories: ["Meat & BBQ","Standards","Burger Trays"]
+types: ["Tray"]
 productinfo:
   internetno: "D656"
   productno: "0-478"

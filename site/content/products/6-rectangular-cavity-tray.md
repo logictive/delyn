@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-458 167x155x35 6 cav square"
 imageurl: "/img/products/0-458-167x155x35-6-cav-square.jpg"
 3d: "/3d/products/0-458-167x155x35-6-cav-square.stl"
-category: ["Party","Snack"]
-type: ["Tray"]
+categories: ["Party","Snack"]
+types: ["Tray"]
 productinfo:
   internetno: "D636"
   productno: "0-458"

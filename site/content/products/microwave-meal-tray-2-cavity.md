@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-397 FECH TRAY 2 CAV"
 imageurl: "/img/products/0-397-FECH-TRAY-2-CAV1.jpg"
 3d: "/3d/products/0-397-FECH-TRAY-2-CAV1.stl"
-category: ["Meal Tray"]
-type: ["Tray"]
+categories: ["Meal Tray"]
+types: ["Tray"]
 productinfo:
   internetno: "D573"
   productno: "0-397"

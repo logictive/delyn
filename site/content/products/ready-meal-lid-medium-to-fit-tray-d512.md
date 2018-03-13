@@ -5,8 +5,8 @@ draft: false
 imagealt: ""
 imageurl: ""
 3d: ["/3d/products/D-5280-267-SMALL-AUTHENTIC-LID-3D2.stl","/3d/products/D-5280-267-SMALL-AUTHENTIC-LID-3D1.stl","/3d/products/D-5280-267-SMALL-AUTHENTIC-LID-3D.stl"]
-category: ["Meal Tray"]
-type: ["Lid"]
+categories: ["Meal Tray"]
+types: ["Lid"]
 productinfo:
   internetno: "D513"
   productno: "0-252"

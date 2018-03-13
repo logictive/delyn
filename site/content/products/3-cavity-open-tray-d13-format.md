@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-555  No13 3 CAVITY TRAY  48mm"
 imageurl: "/img/products/0-555-No13-3-CAVITY-TRAY-48mm.jpg"
 3d: "/3d/products/0-555-No13-3-CAVITY-TRAY-48mm.stl"
-category: ["Party","Bakery","Snack"]
-type: ["Tray"]
+categories: ["Party","Bakery","Snack"]
+types: ["Tray"]
 productinfo:
   internetno: "D733"
   productno: "0-555"

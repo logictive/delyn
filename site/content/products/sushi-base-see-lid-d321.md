@@ -5,8 +5,8 @@ draft: false
 imagealt: "00-30 SUSHI BASE"
 imageurl: "/img/products/00-30-SUSHI-BASE1.jpg"
 3d: ""
-category: ["Meal Tray","Snack"]
-type: ["Base"]
+categories: ["Meal Tray","Snack"]
+types: ["Base"]
 productinfo:
   internetno: "D322"
   productno: "00-30"

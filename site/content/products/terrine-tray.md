@@ -5,8 +5,8 @@ draft: false
 imagealt: ""
 imageurl: ""
 3d: ""
-category: ["Party","Bakery","Display"]
-type: ["Tray"]
+categories: ["Party","Bakery","Display"]
+types: ["Tray"]
 productinfo:
   internetno: "D396"
   productno: "0-133"

@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-544"
 imageurl: "/img/products/0-544.jpg"
 3d: ""
-category: ["Salad","Party","Snack"]
-type: ["Tray"]
+categories: ["Salad","Party","Snack"]
+types: ["Tray"]
 productinfo:
   internetno: "D722"
   productno: "0-544"

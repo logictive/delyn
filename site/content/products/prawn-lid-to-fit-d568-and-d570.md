@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-393 PRAWN BASE LID"
 imageurl: "/img/products/0-393-PRAWN-BASE-LID1.jpg"
 3d: ["/3d/products/0-393-PRAWN-BASE-LID1.stl","/3d/products/0-392-PRAWN-BASE-SIGLE-CAV2.stl"]
-category: ["Snack","Salad","Party"]
-type: ["Tray"]
+categories: ["Snack","Salad","Party"]
+types: ["Tray"]
 productinfo:
   internetno: "D569"
   productno: "0-393"

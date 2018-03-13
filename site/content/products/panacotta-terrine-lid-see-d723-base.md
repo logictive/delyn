@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-546 TERRINE BASE"
 imageurl: "/img/products/0-546-TERRINE-BASE-.jpg"
 3d: "/3d/products/0-546-TERRINE-BASE-.stl"
-category: ["Bakery"]
-type: ["Tray"]
+categories: ["Bakery"]
+types: ["Tray"]
 productinfo:
   internetno: "D724"
   productno: "0-546"

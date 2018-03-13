@@ -5,8 +5,8 @@ draft: false
 imagealt: "a6-65"
 imageurl: "/img/products/a6-65.jpg"
 3d: "/3d/products/0-434-A6-65.stl"
-category: ["Meat & BBQ","Standards"]
-type: ["Tray"]
+categories: ["Meat & BBQ","Standards"]
+types: ["Tray"]
 productinfo:
   internetno: "D609"
   productno: "0-434"

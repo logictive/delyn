@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-529 C2 - 60 OPEN TRAY"
 imageurl: "/img/products/0-529-C2-60-OPEN-TRAY.jpg"
 3d: "/3d/products/0-529-C2-60-OPEN-TRAY.stl"
-category: ["Meat & BBQ","Standards"]
-type: ["Tray"]
+categories: ["Meat & BBQ","Standards"]
+types: ["Tray"]
 productinfo:
   internetno: "D707"
   productno: "0-529"

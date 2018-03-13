@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-423 HINGE PACK"
 imageurl: "/img/products/0-423-HINGE-PACK.jpg"
 3d: "/3d/products/0-423-HINGE-PACK.stl"
-category: ["Salad","Party","Snack"]
-type: ["Hinge Pack"]
+categories: ["Salad","Party","Snack"]
+types: ["Hinge Pack"]
 productinfo:
   internetno: "D598"
   productno: "0-423"

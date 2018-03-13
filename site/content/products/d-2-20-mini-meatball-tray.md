@@ -5,8 +5,8 @@ draft: false
 imagealt: ""
 imageurl: ""
 3d: "/3d/products/0-154-MINI-MEATBALL.stl"
-category: ["Meat & BBQ","Snack","Standards","Meatball Trays"]
-type: ["Tray"]
+categories: ["Meat & BBQ","Snack","Standards","Meatball Trays"]
+types: ["Tray"]
 productinfo:
   internetno: "D411"
   productno: "0-154"

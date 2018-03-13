@@ -5,8 +5,8 @@ draft: false
 imagealt: ""
 imageurl: ""
 3d: ""
-category: ["Party","Snack"]
-type: ["Multi-Cavity"]
+categories: ["Party","Snack"]
+types: ["Multi-Cavity"]
 productinfo:
   internetno: "D483"
   productno: "0-221"

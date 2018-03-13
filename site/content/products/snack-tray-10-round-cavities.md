@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-419 10 CAV"
 imageurl: "/img/products/0-419-10-CAV.jpg"
 3d: "/3d/products/0-419-10-CAV.stl"
-category: ["Party","Snack","Bakery"]
-type: ["Tray"]
+categories: ["Party","Snack","Bakery"]
+types: ["Tray"]
 productinfo:
   internetno: "D594"
   productno: "0-419"

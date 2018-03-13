@@ -5,8 +5,8 @@ draft: false
 imagealt: ""
 imageurl: ""
 3d: ""
-category: ["Meal Tray","Snack"]
-type: ["Lid"]
+categories: ["Meal Tray","Snack"]
+types: ["Lid"]
 productinfo:
   internetno: "D321"
   productno: "00-29"

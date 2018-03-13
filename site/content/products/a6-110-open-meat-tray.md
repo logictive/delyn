@@ -5,8 +5,8 @@ draft: false
 imagealt: "a6-110"
 imageurl: "/img/products/a6-110.jpg"
 3d: "/3d/products/0-435-A6-110.stl"
-category: ["Meat & BBQ","Standards"]
-type: ["Tray"]
+categories: ["Meat & BBQ","Standards"]
+types: ["Tray"]
 productinfo:
   internetno: "D610"
   productno: "0-435"

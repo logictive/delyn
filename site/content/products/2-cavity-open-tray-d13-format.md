@@ -5,8 +5,8 @@ draft: false
 imagealt: ["0-470","0-473  D1-100 SMOOTH WALL"]
 imageurl: ["/img/products/0-470.jpg","/img/products/0-473-D1-100-SMOOTH-WALL.jpg"]
 3d: "/3d/products/0-470-2-CAVITY-45mm-TRAY.stl"
-category: ["Party","Bakery","Snack"]
-type: ["Tray"]
+categories: ["Party","Bakery","Snack"]
+types: ["Tray"]
 productinfo:
   internetno: "D648"
   productno: "0-470"

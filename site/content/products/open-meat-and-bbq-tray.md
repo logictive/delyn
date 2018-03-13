@@ -5,8 +5,8 @@ draft: false
 imagealt: ["0-128 200 x165 x 60","0-128 200 x165 x 60"]
 imageurl: ["/img/products/0-128-200-x165-x-60-1.jpg","/img/products/0-128-200-x165-x-60-.jpg"]
 3d: "/3d/products/0-128-200-x165-x-60-.stl"
-category: ["Meat & BBQ"]
-type: ["Tray"]
+categories: ["Meat & BBQ"]
+types: ["Tray"]
 productinfo:
   internetno: "D391"
   productno: "0-128"

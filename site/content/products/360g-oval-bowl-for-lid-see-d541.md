@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-341-4879"
 imageurl: "/img/products/0-341-4879.jpg"
 3d: "/3d/products/0-341-4879-.stl"
-category: ["Salad","Party","Snack"]
-type: ["Base"]
+categories: ["Salad","Party","Snack"]
+types: ["Base"]
 productinfo:
   internetno: "D542"
   productno: "0-341"

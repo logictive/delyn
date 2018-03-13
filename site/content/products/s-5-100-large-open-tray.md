@@ -5,8 +5,8 @@ draft: false
 imagealt: ["0-425 S5-100 POLY-PROP TRAY","0-422 D15 - 60 OPEN TRAY"]
 imageurl: ["/img/products/0-425-S5-100-POLY-PROP-TRAY.jpg","/img/products/0-422-D15-60-OPEN-TRAY.jpg"]
 3d: "/3d/products/0-425-S5-100-POLY-PROP-TRAY.stl"
-category: ["Meat & BBQ","Salad","Standards"]
-type: ["Tray"]
+categories: ["Meat & BBQ","Salad","Standards"]
+types: ["Tray"]
 productinfo:
   internetno: "D600"
   productno: "0-425"

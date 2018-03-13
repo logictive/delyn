@@ -5,8 +5,8 @@ draft: false
 imagealt: ""
 imageurl: ""
 3d: ""
-category: ["Display"]
-type: ["Tray"]
+categories: ["Display"]
+types: ["Tray"]
 productinfo:
   internetno: "D506"
   productno: "0-244"

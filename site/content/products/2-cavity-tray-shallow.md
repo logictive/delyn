@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-464  OPEN 2 CAVITY SNACK TRAY"
 imageurl: "/img/products/0-464-OPEN-2-CAVITY-SNACK-TRAY.jpg"
 3d: "/3d/products/0-464-OPEN-2-CAVITY-SNACK-TRAY.stl"
-category: ["Snack","Party"]
-type: ["Tray"]
+categories: ["Snack","Party"]
+types: ["Tray"]
 productinfo:
   internetno: "D642"
   productno: "0-464"

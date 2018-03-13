@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-550 NEW BURGER"
 imageurl: "/img/products/0-550-NEW-BURGER.jpg"
 3d: "/3d/products/0-550-NEW-BURGER.stl"
-category: ["Meat & BBQ","Burger Trays"]
-type: ["Tray"]
+categories: ["Meat & BBQ","Burger Trays"]
+types: ["Tray"]
 productinfo:
   internetno: "D728"
   productno: "0-550"

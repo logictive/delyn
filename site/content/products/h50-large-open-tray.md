@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-428  H-50 TRAY"
 imageurl: "/img/products/0-428-H-50-TRAY.jpg"
 3d: "/3d/products/0-428-H-50-TRAY.stl"
-category: ["Meat & BBQ","Salad"]
-type: ["Tray"]
+categories: ["Meat & BBQ","Salad"]
+types: ["Tray"]
 productinfo:
   internetno: "D603"
   productno: "0-428"

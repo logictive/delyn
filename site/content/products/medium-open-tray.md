@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-531 JS FLAKES TRAY"
 imageurl: "/img/products/0-531-JS-FLAKES-TRAY.jpg"
 3d: "/3d/products/0-531-JS-FLAKES-TRAY.stl"
-category: ["Meat & BBQ","Party","Snack"]
-type: ["Tray"]
+categories: ["Meat & BBQ","Party","Snack"]
+types: ["Tray"]
 productinfo:
   internetno: "D709"
   productno: "0-531"

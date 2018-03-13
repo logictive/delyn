@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-547  APET PUNNET"
 imageurl: "/img/products/0-547-APET-PUNNET.jpg"
 3d: "/3d/products/0-547-APET-PUNNET.stl"
-category: ["Salad","Party","Snack"]
-type: ["Tray"]
+categories: ["Salad","Party","Snack"]
+types: ["Tray"]
 productinfo:
   internetno: "D725"
   productno: "0-547"

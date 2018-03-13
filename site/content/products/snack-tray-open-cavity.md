@@ -5,8 +5,8 @@ draft: false
 imagealt: ""
 imageurl: ""
 3d: ""
-category: ["Party","Snack","Bakery"]
-type: ["Tray"]
+categories: ["Party","Snack","Bakery"]
+types: ["Tray"]
 productinfo:
   internetno: "D507"
   productno: "0-246"

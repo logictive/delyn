@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-493 LARGE SQUARE POT"
 imageurl: "/img/products/0-493-LARGE-SQUARE-POT.jpg"
 3d: "/3d/products/0-493-LARGE-SQUARE-POT.stl"
-category: ["Salad","Party","Snack"]
-type: ["Tray"]
+categories: ["Salad","Party","Snack"]
+types: ["Tray"]
 productinfo:
   internetno: "D671"
   productno: "0-493"

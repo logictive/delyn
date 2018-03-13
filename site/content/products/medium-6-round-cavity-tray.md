@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-459 167x155x35 6 round cav"
 imageurl: "/img/products/0-459-167x155x35-6-round-cav.jpg"
 3d: "/3d/products/0-459-167x155x35-6-round-cav.stl"
-category: ["Meat & BBQ","Party","Snack"]
-type: ["Tray"]
+categories: ["Meat & BBQ","Party","Snack"]
+types: ["Tray"]
 productinfo:
   internetno: "D637"
   productno: "0-459"

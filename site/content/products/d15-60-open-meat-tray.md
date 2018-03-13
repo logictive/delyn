@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-422 D15 - 60 OPEN TRAY"
 imageurl: "/img/products/0-422-D15-60-OPEN-TRAY1.jpg"
 3d: "/3d/products/0-422-D15-60-OPEN-TRAY.stl"
-category: ["Meat & BBQ","Standards"]
-type: ["Tray"]
+categories: ["Meat & BBQ","Standards"]
+types: ["Tray"]
 productinfo:
   internetno: "D597"
   productno: "0-422"

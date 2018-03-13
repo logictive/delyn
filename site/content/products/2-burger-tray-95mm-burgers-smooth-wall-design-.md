@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-476  2X4 SMOOTH WALL BURGER TRAY"
 imageurl: "/img/products/0-476-2X4-SMOOTH-WALL-BURGER-TRAY.jpg"
 3d: "/3d/products/0-476-2X4-SMOOTH-WALL-BURGER-TRAY.stl"
-category: ["Meat & BBQ","Burger Trays"]
-type: ["Tray"]
+categories: ["Meat & BBQ","Burger Trays"]
+types: ["Tray"]
 productinfo:
   internetno: "D654"
   productno: "0-476"

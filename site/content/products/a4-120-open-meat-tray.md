@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-436"
 imageurl: "/img/products/0-436.jpg"
 3d: "/3d/products/0-436-A4-120-OPEN-TRAY-3D.stl"
-category: ["Meat & BBQ","Standards"]
-type: ["Tray"]
+categories: ["Meat & BBQ","Standards"]
+types: ["Tray"]
 productinfo:
   internetno: "D611"
   productno: "0-436"

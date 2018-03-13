@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-519"
 imageurl: "/img/products/0-519.jpg"
 3d: ""
-category: ["Bakery"]
-type: ["Tray"]
+categories: ["Bakery"]
+types: ["Tray"]
 productinfo:
   internetno: "D697"
   productno: "0-519"

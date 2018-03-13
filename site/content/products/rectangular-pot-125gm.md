@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-247 125g LOG POT"
 imageurl: "/img/products/0-247-125g-LOG-POT1.jpg"
 3d: "/3d/products/0-247-125g-LOG-POT1.stl"
-category: ["Salad","Party","Snack"]
-type: ["Tray"]
+categories: ["Salad","Party","Snack"]
+types: ["Tray"]
 productinfo:
   internetno: "D508"
   productno: "0-247"

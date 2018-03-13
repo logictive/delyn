@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-466  90mm SMOOTHIE POT"
 imageurl: "/img/products/0-466-90mm-SMOOTHIE-POT.jpg"
 3d: "/3d/products/0-466-90mm-SMOOTHIE-POT.stl"
-category: ["Salad","Party","Snack"]
-type: ["Pot"]
+categories: ["Salad","Party","Snack"]
+types: ["Pot"]
 productinfo:
   internetno: "D644"
   productno: "0-466"

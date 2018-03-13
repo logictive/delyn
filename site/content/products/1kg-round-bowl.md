@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-553  1kg OLIVE BAR BOWL"
 imageurl: "/img/products/0-553-1kg-OLIVE-BAR-BOWL.jpg"
 3d: "/3d/products/0-553-1kg-OLIVE-BAR-BOWL.stl"
-category: ["Salad"]
-type: ["Bowl"]
+categories: ["Salad"]
+types: ["Bowl"]
 productinfo:
   internetno: "D731"
   productno: "0-553"

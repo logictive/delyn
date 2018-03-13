@@ -3,6 +3,7 @@
 .mar-t-auto { margin-top: auto; }
 .mar-b-auto { margin-bottom: auto; }
 
+.text-normal { font-weight: var(--font-weight); }
 .text-size-xs { font-size: 0.5em; }
 .text-size-sm { font-size: 1em; }
 .text-size-md { font-size: 1.125em; }

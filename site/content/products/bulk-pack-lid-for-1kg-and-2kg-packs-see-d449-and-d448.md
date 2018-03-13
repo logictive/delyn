@@ -5,8 +5,8 @@ draft: false
 imagealt: "0-197 1kg 2kg BULK PACK LID"
 imageurl: "/img/products/0-197-1kg-2kg-BULK-PACK-LID.jpg"
 3d: "/3d/products/0-197-1kg-+-2kg-BULK-PACK-LID.stl"
-category: ["Salad"]
-type: ["Lid"]
+categories: ["Salad"]
+types: ["Lid"]
 productinfo:
   internetno: "D450"
   productno: "0-197"
