@@ -4,14 +4,17 @@ seoTitle: ""
 seoDescription: ""
 date: {{ .Date }}
 draft: true
-product:
+imagealt: ''
+imageurl: ''
+3d: ''
+category: ""
+type: ""
+productinfo:
   internetNo: ""
   productNo: ""
   length: 0
   width: 0
   depth: 0
   shape: ""
-  type: ""
-  category: ""
   polymer: ""
 ---
