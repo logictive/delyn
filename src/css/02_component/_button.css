@@ -1,0 +1,78 @@
+/* Extends Shoelace Button */
+
+.button {
+  &.button-outline, &.button-outline-secondary,
+  &.button-outline-success, &.button-outline-info,
+  &.button-outline-warning, &.button-outline-danger,
+  &.button-outline-light, &.button-outline-dark {
+    background-color: transparent;
+    border-width: 1px;
+    border-style: solid;
+  }
+
+  &.button-outline {
+    border-color: var(--button-bg-color);
+    color: var(--button-bg-color);
+    &:--enter {
+      background-color: var(--button-bg-color);
+      color: var(--button-color);
+    }
+  }
+  &.button-outline-secondary {
+    border-color: var(--button-bg-color-secondary);
+    color: var(--button-bg-color-secondary);
+    &:--enter {
+      background-color: var(--button-bg-color-secondary);
+      color: var(--button-color-secondary);
+    }
+  }
+  &.button-outline-success {
+    border-color: var(--button-bg-color-success);
+    color: var(--button-bg-color-success);
+    &:--enter {
+      background-color: var(--button-bg-color-success);
+      color: var(--button-color-success);
+    }
+  }
+  &.button-outline-info {
+    border-color: var(--button-bg-color-info);
+    color: var(--button-bg-color-info);
+    &:--enter {
+      background-color: var(--button-bg-color-info);
+      color: var(--button-color-info);
+    }
+  }
+  &.button-outline-warning {
+    border-color: var(--button-bg-color-warning);
+    color: var(--button-bg-color-warning);
+    &:--enter {
+      background-color: var(--button-bg-color-warning);
+      color: var(--button-color-warning);
+    }
+  }
+  &.button-outline-danger {
+    border-color: var(--button-bg-color-danger);
+    color: var(--button-bg-color-danger);
+    &:--enter {
+      background-color: var(--button-bg-color-danger);
+      color: var(--button-color-danger);
+    }
+  }
+  &.button-outline-light {
+    border-color: var(--button-bg-color-light);
+    color: var(--button-bg-color-light);
+    &:--enter {
+      background-color: var(--button-bg-color-light);
+      color: var(--button-color-light);
+    }
+  }
+  &.button-outline-dark {
+    border-color: var(--button-bg-color-dark);
+    color: var(--button-bg-color-dark);
+    &:--enter {
+      background-color: var(--button-bg-color-dark);
+      color: var(--button-color-dark);
+    }
+  }
+
+}

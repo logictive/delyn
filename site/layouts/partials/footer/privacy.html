@@ -1,0 +1,7 @@
+<ul class="privacy mar-t-md mar-b-0">
+  {{ range .Site.Menus.privacy }}
+    <li class="">
+      <a class="px-3 py-2" href="{{ .URL }}">{{ .Name }}</a>
+    </li>
+  {{ end }}
+</ul>

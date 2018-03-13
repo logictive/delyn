@@ -1,0 +1,10 @@
+.mar-l-auto { margin-left: auto; }
+.mar-r-auto { margin-right: auto; }
+.mar-t-auto { margin-top: auto; }
+.mar-b-auto { margin-bottom: auto; }
+
+.text-size-xs { font-size: 0.5em; }
+.text-size-sm { font-size: 1em; }
+.text-size-md { font-size: 1.125em; }
+.text-size-lg { font-size: 1.5em; }
+.text-size-xl { font-size: 2em; }

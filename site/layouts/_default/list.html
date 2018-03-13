@@ -1,5 +1,5 @@
 {{ define "main" }}
-  <main class="content container {{ .Title }} {{ .Section | urlize }}">
+  <main class="content {{ .Title }} category {{ .Section | urlize }}">
     <h1>{{ .Section }}</h1>
     {{ range .Data.Pages }}
       <article>

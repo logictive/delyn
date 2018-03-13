@@ -7,16 +7,17 @@ date: {{ .Date }}
 draft: true
 menu: "main"
 url: "/{{ .TranslationBaseName | urlize }}"
+headerimage: ""
 
 # Landing Page Banner
 banner:
   enabled: false
   title: ""
   text: ""
-  primaryAction:
+  primaryaction:
     text: ""
     url: ""
-  secondaryAction:
+  secondaryaction:
     text: ""
     url: ""
 ---

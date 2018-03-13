@@ -1,0 +1,27 @@
+/**
+ * @Declarations
+*/
+
+/* Selectors https://drafts.csswg.org/css-extensions/#custom-selectors */
+@custom-selector :--heading h1, h2, h3, h4, h5, h6;
+@custom-selector :--button button, .button;
+@custom-selector :--enter :hover, :focus;
+
+:root {
+  /* Fonts */
+  --font-sans-serif: 'Montserrat', sans-serif;
+  --font-serif: 'Zilla Slab', serif;
+
+  /* Color */
+  --color-yellow: #f6bc00;
+
+  /* States */
+  --state-primary: var(--color-yellow);
+  --state-secondary: var(--color-navy);
+
+  /* Content */
+  --font-family: var(--font-serif);
+  --headings-font-family: var(--font-sans-serif);
+  --headings-font-weight: var(--font-weight-bold);
+  --headings-font-size-h2: 2.5rem;
+}

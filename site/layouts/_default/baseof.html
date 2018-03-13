@@ -11,22 +11,21 @@
   <body>
     {{ partial "nav" . }}
     {{ if $.Param "banner.enabled" }}
-    <header class="jumbotron">
-      <div class="container">
-        <div class="hero-content">
-          <h1 class="hero__title">{{ $.Param "banner.title" | markdownify }}</div>
-          <div class="hero__text">{{ $.Param "banner.text" | markdownify }}</div>
-          <div class="hero__action">
-            <a href="{{ $.Param "banner.primaryaction.url" | urlize }}" class="btn btn-xl btn-primary">{{ $.Param "banner.primaryaction.text" }}</a>
-            {{ if $.Param "banner.secondaryaction.text" }}<a href="{{ $.Param "banner.secondaryaction.url" | urlize }}" class="btn btn-xl btn-outlint-white">{{ $.Param "banner.secondaryaction.text" }}</a>{{ end }}
-          </div>
+    <header class="hero">
+      <img class="hero-image" src="{{ $.Param "headerimage" }}">
+      <div class="hero-content">
+        <h1 class="hero-title text-light text-uppercase">{{ $.Param "banner.title" | markdownify }}</h1>
+        <div class="hero-text text-light mar-t-sm">{{ $.Param "banner.text" | markdownify }}</div>
+        <div class="hero-action mar-t-md">
+          <a href="{{ $.Param "banner.primaryaction.url" | urlize }}" class="button button-xl">{{ $.Param "banner.primaryaction.text" }}</a>
+          {{ if $.Param "banner.secondaryaction.text" }}<a href="{{ $.Param "banner.secondaryaction.url" | urlize }}" class="button button-xl button-outline-light">{{ $.Param "banner.secondaryaction.text" }}</a>{{ end }}
         </div>
       </div>
     </header>
     {{ else }}
-    <header>
-      <h1>{{ .Title }}</h1>
-      <p class="subtitle"></p>
+    <header class="pagehead {{if $.Param "headerimage" }}pagehead--image pagehead--overlay{{ end }}">
+        {{if $.Param "headerimage" }}<img class="pagehead-image" src="{{ $.Param "headerimage" }}">{{ end }}
+      <h1 class="pagehead-title text-light text-uppercase">{{ .Title }}</h1>
     </header>
     {{ end }}
 

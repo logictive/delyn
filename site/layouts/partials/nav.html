@@ -1,36 +1,25 @@
-<nav class="navbar navbar-expand-md navbar-light bg-white fixed-top">
-  <div class="container">
-    {{ if .Site.Params.logo }}
-    <a class="navbar-brand" href="{{ .Site.BaseURL }}">
-      {{ $url := printf "/img/%s" .Site.Params.logo }}
-      <img src="{{ $url | absURL }}" class="img-responsive" alt="{{ .Site.Params.navigation.brand }}">
-    </a>
-    {{ else }}
-    <a class="navbar-brand" href="{{ .Site.BaseURL }}">
-      {{ .Site.Title }}
-    </a>
+<nav class="navbar">
+  {{ if .Site.Params.logo }}
+  <a class="navbar-brand" href="{{ .Site.BaseURL }}">
+    {{ $url := printf "/img/%s" .Site.Params.logo }}
+    <img src="{{ $url | absURL }}" class="img-responsive" alt="{{ .Site.Params.navigation.brand }}">
+  </a>
+  {{ else }}
+  <a class="navbar-brand text-uppercase" href="{{ .Site.BaseURL }}">
+    {{ .Site.Title }}
+  </a>
+  {{ end }}
+
+  <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navPrimary" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <i title="Toggle Navigation" class="fas fa-bars fa-lg"></i>
+  </button>
+
+  <ul class="navbar-nav mar-l-auto mar-b-0" id="navPrimary">
+    {{ range .Site.Menus.main }}
+      <li class="text-uppercase">
+        <a class="px-3 py-2" href="{{ .URL }}">{{ .Name }}</a>
+      </li>
     {{ end }}
-
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ml-auto">
-        <li class="hidden nav-item">
-          <a href="{{ if .IsHome }}/#page-top{{ else }}{{ .Site.BaseURL }}{{ end }}"></a>
-        </li>
-        {{ range .Site.Menus.main }}
-          <li class="nav-item text-uppercase">
-            <a class="nav-link px-3 py-2" href="{{ .URL }}">{{ .Name }}</a>
-          </li>
-        {{ end }}
-      </ul>
-    </div>
-    {{ "<!-- /.navbar-collapse -->" | safeHTML }}
-    <div class="navbar-social">
-      {{ partial "social" . }}
-    </div>
-  </div>
-  {{ "<!-- /.container-fluid -->" | safeHTML }}
+  </ul>
+  {{ partial "social" . }}
 </nav>

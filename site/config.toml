@@ -18,5 +18,5 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 
 [params]
   logo = ""
-  headerImage = ""
+  headerImage = "/img/home-header-bg-lg.jpg"
   

@@ -1,3 +1,16 @@
 {{ define "main" }}
-<p>Hey this works</p>
+<section class="products section">
+  <h2 class="section-heading text-uppercase mar-b-md">{{ .Params.productstitle }}</h2>
+  <h4 class="section-subheading text-italic mar-x-auto">{{ .Params.productssubtitle }}</h4>
+</section>
+<section class="section section--bg section--overlay section--feature">
+  <img class="section-bg" src="/img/home-feature-bg.jpg">
+  <p class="text-size-xl">Want to know when we release new products? Sign up to our mainling list.</p>
+  <form class="section-form mar-x-auto" name="signup" action="#">
+    <div class="input-group">
+      <input type="email" class="input-lg" placeholder="Email">
+      <button type="button" class="button button-lg disabled">Submit</button>
+    </div>
+  </form>
+</section>
 {{ end }}
