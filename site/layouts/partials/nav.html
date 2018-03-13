@@ -2,7 +2,7 @@
   {{ if .Site.Params.logo }}
   <a class="navbar-brand" href="{{ .Site.BaseURL }}">
     {{ $url := printf "/img/%s" .Site.Params.logo }}
-    <img src="{{ $url | absURL }}" class="img-responsive" alt="{{ .Site.Params.navigation.brand }}">
+    <img src="{{ $url | absURL }}" alt="{{ .Site.Params.navigation.brand }}">
   </a>
   {{ else }}
   <a class="navbar-brand text-uppercase" href="{{ .Site.BaseURL }}">

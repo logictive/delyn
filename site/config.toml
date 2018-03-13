@@ -14,6 +14,6 @@ disableKinds = ["RSS"]
   posts = "/:title"
 
 [params]
-  logo = ""
+  logo = "delyn-logo.svg"
   headerImage = "/img/home-header-bg-lg.jpg"
   
