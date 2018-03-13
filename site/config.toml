@@ -2,8 +2,8 @@ baseurl = "/"
 languageCode = "en-gb"
 languageLang = "en-gb"
 title = "Delyn Packaging"
-
 disableKinds = ["RSS"]
+googleAnalytics = ""
 
 [taxonomies]
   type = "types"

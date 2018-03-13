@@ -2,7 +2,7 @@
 <section class="products section">
   <h2 class="section-heading text-uppercase mar-b-md">{{ .Params.productstitle }}</h2>
   <h4 class="section-subheading text-italic mar-x-auto">{{ .Params.productssubtitle }}</h4>
-  <ul class="productcats container">
+  <ul class="productcats">
     {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
     <li class="productcat productcat--{{$name}} mar-b-lg bg-light">
       <a href="{{ "/categories/" | relLangURL }}{{ $name | urlize }}">

@@ -3,6 +3,7 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  padding: 0 1rem;
   justify-content: center;
 }
 
@@ -34,12 +35,21 @@
 }
 
 @media (--breakpoint-md-up) { 
+  .productcats {
+    width: calc(100% - 2rem);
+  }
+
   .productcat {
     width: 50%;
   }
 }
 
 @media (--breakpoint-lg-up) { 
+  .productcat {
+    width: 33.33%;
+  }
+}
+@media (--breakpoint-xl-up) { 
   .productcat {
     width: 25%;
   }
@@ -53,6 +63,7 @@
   }
 
   .productcat {
+    border-radius: 0.5rem;
     margin: 0;
     width: 100%;
   }

@@ -1,10 +1,9 @@
 {{ define "main" }}
   <main class="content {{ .Title }} category {{ .Section | urlize }}">
-    <ul class="productlist productlist--grid container">
+    <ul class="productlist productlist--grid">
       {{ range .Data.Pages }}
-        <article>
+        <article class="productsummary bg-light">
           <h2>{{ .Title }}</h2>
-          {{ .Content }}
         </article>
       {{ end }}
     </section>

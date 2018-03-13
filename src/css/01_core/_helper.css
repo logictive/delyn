@@ -9,3 +9,7 @@
 .text-size-md { font-size: 1.125em; }
 .text-size-lg { font-size: 1.5em; }
 .text-size-xl { font-size: 2em; }
+
+.border-round { border-radius: 0.5rem; }
+.border-round-sm { border-radius: 0.25rem; }
+.border-round-lg { border-radius: 1rem; }

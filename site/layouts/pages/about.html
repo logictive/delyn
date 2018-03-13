@@ -1,0 +1,13 @@
+{{ define "main" }}
+  <main class="content {{ .Title }}">
+    <section class="about section">
+      {{ .Content }}
+    </section>
+    {{ with .Site.GetPage "page" "services" }}
+    <section class="services section bg-light">
+    <h2 class="section-heading text-uppercase mar-b-md">{{ .Title }}</h2>
+      {{ .Content }}
+    </section>
+    {{end}}
+  </main>
+{{end}}

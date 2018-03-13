@@ -2,8 +2,18 @@
   display: flex;
 }
 
+.product-list--grid {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.product-list--rows {
+  flex-direction: column;
+  
+}
+
 @supports ( display: grid ) {
-  .productlist {
+  .productlist--grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     grid-gap: 2rem;

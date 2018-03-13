@@ -1,6 +1,5 @@
 {{ define "main" }}
   <main class="content {{ .Title }} category {{ .Section | urlize }}">
-    <h1>{{ .Section }}</h1>
     {{ range .Data.Pages }}
       <article>
         <h2>{{ .Title }}</h2>
