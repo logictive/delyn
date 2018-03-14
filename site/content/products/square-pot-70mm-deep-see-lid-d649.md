@@ -2,9 +2,9 @@
 title: "Square Pot 70mm deep - see Lid D649"
 date: 2014-03-17T00:00:00Z
 draft: false
-imagealt: ["0-248 SMOOTHIE POT 90mm 7","0-248 SMOOTHIE POT 90mm 7%","0-248 SMOOTHIE POT 90mm 7%"]
-imageurl: ["/img/products/0-248-SMOOTHIE-POT-90mm-71.jpg","/img/products/0-248-SMOOTHIE-POT-90mm-7%1.jpg","/img/products/0-248-SMOOTHIE-POT-90mm-7%.jpg"]
-3d: "/3d/products/0-248-SMOOTHIE-POT-90mm-7%1.stl"
+imagealt: ["0-248 SMOOTHIE POT 90mm"]
+imageurl: "/img/products/0-248-SMOOTHIE-POT-90mm.jpg"
+3d: "/3d/products/0-248-SMOOTHIE-POT-90mm.stl"
 categories: ["Salad","Party","Snack"]
 types: ["Pot"]
 productinfo:
