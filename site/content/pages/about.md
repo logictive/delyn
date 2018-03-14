@@ -12,6 +12,8 @@ Delyn are manufacturers of plastic food packaging covering Meat & BBQ, Salads & 
 
 We opened in March 2003 and operate to BRC /IoP Global Standard Category 1.
 
+<split>
+
 **Our Offer** - Bespoke, design led trays, Design options from a large ready made tool bank AND a range of Industry &#8216;Standard&#8217; tray sizes and have developed very fast lead times and low cost sampling for new product development as well as original tooling.
 
 **Our Aim** &#8211; is to remove the barriers to trade and we do everything possible to create a trading environment with our customers..
@@ -19,3 +21,11 @@ We opened in March 2003 and operate to BRC /IoP Global Standard Category 1.
 **We specialise** in both Food and Non-Food packaging including markets such as Meat and Fish, BBQ, Salads and Wet Pasta, Snack Foods & Convenience, Dairy, Antipasti, Pharaceuticals and Cosmetics.
 
 [Contact us](/contact/) us, and let us show you what we can do
+
+<split>
+
+## Services
+
+Delyn offer added value and co-packing services to our customers and run a full padding operation for meat trays, we fit &#8216;sporks&#8217; into salad trays and labels and other items where needed.
+
+Please [contact us](/contact) if you have any contract packing requirement and we would be pleased to quote for your requirements

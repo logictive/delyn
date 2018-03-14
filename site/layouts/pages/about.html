@@ -1,12 +1,12 @@
 {{ define "main" }}
   <main class="content {{ .Title }}">
-    <section class="about section">
-      {{ .Content }}
-    </section>
-    {{ with .Site.GetPage "page" "services" }}
-    <section class="services section bg-light">
-    <h2 class="section-heading text-uppercase mar-b-md">{{ .Title }}</h2>
-      {{ .Content }}
+    {{ $sections := split .Content "<split>" }}
+    {{ range $sections }}
+    <section class="section section--split text-size-4">
+      <div class="section-split">
+        {{ . | markdownify }}
+      </div>
+      <img class="section-split section-split-image" src="https://placeholdit.co//i/800x600?bg=eeeeee&fc=577084">
     </section>
     {{end}}
   </main>

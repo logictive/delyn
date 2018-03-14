@@ -7,15 +7,15 @@
     <li class="productcat productcat--{{$name}} mar-b-lg bg-light">
       <a href="{{ "/categories/" | relLangURL }}{{ $name | urlize }}">
         <img class="productcat-image" src="/img/categories/{{ $name | urlize }}.jpg">
-        <h3 class="productcat-title text-size-lg text-normal text-dark pad-y-sm pad-x-md">{{ replace $name "-" " " | title }}</h3>
+        <h3 class="productcat-title text-size-5 text-normal text-dark pad-y-sm pad-x-md">{{ replace $name "-" " " | title }}</h3>
       </a>
-      </li>
+    </li>
     {{ end }}
   </ul>
 </section>
 <section class="section section--bg section--overlay section--feature">
   <img class="section-bg" src="/img/home-feature-bg.jpg">
-  <p class="text-size-xl">Want to know when we release new products? Sign up to our mainling list.</p>
+  <p class="text-size-6">Want to know when we release new products? Sign up to our mainling list.</p>
   <form class="section-form mar-x-auto" name="signup" action="#">
     <div class="input-group">
       <input type="email" class="input-lg" placeholder="Email">
