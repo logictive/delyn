@@ -1,6 +1,6 @@
 {{ define "main" }}
   <main class="content {{ .Title }} category {{ .Section | urlize }}">
-    <div class="product-controls mar-y-lg text-right">
+    <div class="product-controls mar-b-lg text-right">
         <button class="button button-light" data-view="productlist--grid-lg">
             <i title="Show as Large Grid" class="fas fa-th-large fa-lg"></i>
         </button>
@@ -12,7 +12,7 @@
       </button>
     </div>
     <section class="productlist productlist--grid">
-      <div class="product-header">
+      <div class="product-header bg-dark text-size-3 text-light text-bold">
         <span class="product-header--title">Product Name</span>
         <span class="product-header--id">ID</span>
         <span class="product-header--shape">Shape</span>

@@ -5,28 +5,26 @@
     <!--description-->
     <h3 class="product-title text-normal">{{ .Title }}</h3>
     <div class="product-id text-muted">{{ $.Param "productinfo.internetno" }}</div>
-    <ul class="product-infos">
-      <!--shape-->
-      <li class="product-info product-info--shape">
-        <h6 class="product-info-title text-size-3 mar-b-0 mar-r-sm">Shape</h6>
-        <span class="product-info-value text-size-3">{{ $.Param "productinfo.shape" }}</span>
-      </li>
-      <!--length-->
-      <li class="product-info product-info--length">
-        <h6 class="product-info-title text-size-3 mar-b-0 mar-r-sm">Length</h6>
-        <span class="product-info-value text-size-3">{{ $.Param "productinfo.length" }}mm</span>
-      </li>
-      <!--width-->
-      <li class="product-info product-info--width">
-        <h6 class="product-info-title text-size-3 mar-b-0 mar-r-sm">Width</h6>
-        <span class="product-info-value text-size-3">{{ $.Param "productinfo.width" }}mm</span>
-      </li>
-      <!--depth-->
-      <li class="product-info product-info--depth">
-        <h6 class="product-info-title text-size-3 mar-b-0 mar-r-sm">Depth</h6>
-        <span class="product-info-value text-size-3">{{ $.Param "productinfo.depth" }}mm</span>
-      </li>
-    </ul>
+    <!--shape-->
+    <div class="product-info product-info--shape">
+      <h6 class="product-info-title text-size-3 mar-b-0 mar-r-sm">Shape</h6>
+      <span class="product-info-value text-size-3">{{ $.Param "productinfo.shape" }}</span>
+    </div>
+    <!--length-->
+    <div class="product-info product-info--length">
+      <h6 class="product-info-title text-size-3 mar-b-0 mar-r-sm">Length</h6>
+      <span class="product-info-value text-size-3">{{ $.Param "productinfo.length" }}mm</span>
+    </div>
+    <!--width-->
+    <div class="product-info product-info--width">
+      <h6 class="product-info-title text-size-3 mar-b-0 mar-r-sm">Width</h6>
+      <span class="product-info-value text-size-3">{{ $.Param "productinfo.width" }}mm</span>
+    </div>
+    <!--depth-->
+    <div class="product-info product-info--depth mar-b-md">
+      <h6 class="product-info-title text-size-3 mar-b-0 mar-r-sm">Depth</h6>
+      <span class="product-info-value text-size-3">{{ $.Param "productinfo.depth" }}mm</span>
+    </div>
     <button class="product-link button button-lg d-b text-uppercase mar-l-auto">View Product</button>
   </a>
   </article>
