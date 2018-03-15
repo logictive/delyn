@@ -54,8 +54,8 @@
       max-width: 50%;
     }
 
-    .product-info {
-      h6 { display: inline-block; width: 40%; }
+    .product-info-title {
+      display: inline-block; width: 40%;
     }
   }
 
@@ -118,7 +118,7 @@
 
     .productlist--grid, .productlist--grid-lg {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
       grid-gap: 2rem;
 
       .product {
@@ -168,7 +168,7 @@
         &-info--width { grid-column: width; grid-row: 1; }
         &-info--depth { grid-column: depth; grid-row: 1; margin: 0 !important; }
 
-        &-link, &-info-title { display: none; }
+        &-link, &-info .product-info-title { display: none; }
       }
     }
   }
