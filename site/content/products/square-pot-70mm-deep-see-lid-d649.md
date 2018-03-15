@@ -18,6 +18,6 @@ productinfo:
 ---
 Square Pot 70mm deep - see Lid D649. This is a 70mm deep square pot. Suitable for desserts, snacks, antipasti and olives.
 
-This square pot 70mm deep is designed for heat seal and there is a flat lid to suit - see D649. Available to order in Clear or Black plastic material. See also square pot 90mm deep - D644.
+This square pot 70mm deep is designed for heat seal and there is a flat lid to suit - see D649. Available to order in Clear or Black plastic material. See also square pot 90mm deep - D644.git 
 
 All products are made to order.

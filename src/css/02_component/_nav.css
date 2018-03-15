@@ -25,19 +25,35 @@
   &-toggle {
     display: block;
     margin-left: auto;
+    position: relative;
+    z-index: 5;
   }
 
   &-nav {
+    background: var(--state-dark);
     list-style: none;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content :center;
     padding: 0;
     position: absolute;
     top: 0;
     left: 0; 
+    height: 100vh;
+    width: 100vw;
     transform: translateY(-100vh);
 
+    &.is-active {
+      transition: transform 0.2s ease-in-out;
+    }
+
+    &.is-open {
+      transform: translateY(0);
+    }
+
     li {
+      margin: 1rem 0;
 
       a {
         color: white;
@@ -89,9 +105,13 @@
     }
 
     &-nav {
+      background: none;
       flex-direction: row;
+      height: auto;
+      width: auto;
       position: static;
       transform: translateY(0);
+      transition: none;
     }
 
     & .social {

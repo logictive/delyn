@@ -14,4 +14,21 @@ window.addEventListener('scroll', function(){
     position = window.pageYOffset;
     console.log(position);
   }
-})
+});
+
+var navToggle = document.querySelector('.navbar-toggle');
+var navbarNav = document.querySelector('.navbar-nav');
+
+navToggle.addEventListener('click', () => {
+    navbarNav.classList.add('is-active');
+    navbarNav.classList.toggle('is-open');
+    navbarNav.addEventListener('transitionend', () => {
+      navbarNav.classList.remove('is-active');
+    })
+});
+
+window.addEventListener('resize', () => {
+  if ( window.innerWidth > 767) {
+    navbarNav.classList.remove('is-open');
+  }
+});
