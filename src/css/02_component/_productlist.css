@@ -26,6 +26,7 @@
 }
 
 .product {
+  margin: 0 0 var(--spacing-lg);
   width: 100%;
 
   &-header {
@@ -124,6 +125,7 @@
       .product {
         border-radius: 0.5rem;
         max-width: 100%;
+        margin: 0;
       }
     }
 
@@ -154,6 +156,8 @@
       }
 
       .product {
+        margin: 0;
+
         a { padding: var(--spacing-sm); }
 
         &:nth-child(odd) {
