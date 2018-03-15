@@ -2,8 +2,8 @@
 title: "Snow Dome Cake Pack"
 date: 2014-11-07T00:00:00Z
 draft: false
-imagealt: ["00-84 Base","00-84 Lid","00-84"]
-imageurl: ["/img/products/00-84-Base.jpg","/img/products/00-84-Lid.jpg","/img/products/00-84.jpg"]
+imagealt: "00-84"
+imageurl: "/img/products/00-84.jpg"
 3d: "/3d/products/00-84-SNOW-DOME-LID-AND-BASE.stl"
 categories: ["Bakery"]
 types: ["Tray"]

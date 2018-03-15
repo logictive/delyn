@@ -10,8 +10,8 @@ imageurl: ''
 category: ""
 type: ""
 productinfo:
-  internetNo: ""
-  productNo: ""
+  internetno: ""
+  productno: ""
   length: 0
   width: 0
   depth: 0

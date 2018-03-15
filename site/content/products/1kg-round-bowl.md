@@ -19,5 +19,3 @@ productinfo:
 1kg Round Bowl. This 1kg Round Bowl is the ideal product for salads, whole lettuce, bulk coleslaw or wet pasta and many other Salad, Olive and Antipasti products. Designed with a heat seal or stretch wrap flange to give flexibility in sealing and available to order in a variety of materials.
 
 All products are made to order.
-
- 

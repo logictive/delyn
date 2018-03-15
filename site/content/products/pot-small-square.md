@@ -2,8 +2,8 @@
 title: "Pot Small Square"
 date: 2014-11-07T00:00:00Z
 draft: false
-imagealt: ["Pot Small Square","D552"]
-imageurl: ["/img/products/Pot-Small-Square.jpg","/img/products/D552.jpg"]
+imagealt: "Pot Small Square"
+imageurl: "/img/products/Pot-Small-Square.jpg"
 3d: "/3d/products/0-355-4997-SQUARE-POT-3D.stl"
 categories: ["Salad","Party","Snack"]
 types: ["Tray"]

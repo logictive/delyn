@@ -3,6 +3,7 @@ languageCode = "en-gb"
 languageLang = "en-gb"
 title = "Delyn Packaging"
 disableKinds = ["RSS"]
+paginate = 12
 googleAnalytics = ""
 
 [taxonomies]

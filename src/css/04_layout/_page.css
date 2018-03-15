@@ -1,0 +1,9 @@
+main.pages, main.products {
+  padding: 2rem 1rem;
+}
+
+@media (--breakpoint-md-up) {
+  main.pages, main.products {
+    padding: 2rem 2rem;
+  }
+}

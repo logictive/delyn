@@ -3,7 +3,7 @@ title: "2 Half Pound Burger Tray for 110mm burgers"
 date: 2014-03-18T00:00:00Z
 draft: false
 imagealt: ""
-imageurl: ""
+imageurl: "/img/products/0-262-BURGER-TRAY.jpg"
 3d: "/3d/products/0-262-BURGER-TRAY.stl"
 categories: ["Meat & BBQ","Burger Trays"]
 types: ["Tray"]

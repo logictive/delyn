@@ -1,10 +1,27 @@
 {{ define "main" }}
   <main class="content {{ .Title }} category {{ .Section | urlize }}">
-    <ul class="productlist productlist--grid">
-      {{ range .Data.Pages }}
-        <article class="productsummary bg-light">
-          <h2>{{ .Title }}</h2>
-        </article>
+    <div class="product-controls mar-y-lg text-right">
+        <button class="button button-light" data-view="productlist--grid-lg">
+            <i title="Show as Large Grid" class="fas fa-th-large fa-lg"></i>
+        </button>
+      <button class="button" data-view="productlist--grid">
+          <i title="Show as Grid" class="fas fa-th fa-lg"></i>
+      </button>
+      <button class="button button-light" data-view="productlist--rows">
+          <i title="Show as list" class="fas fa-list fa-lg"></i>
+      </button>
+    </div>
+    <section class="productlist productlist--grid">
+      <div class="product-header">
+        <span class="product-header--title">Product Name</span>
+        <span class="product-header--id">ID</span>
+        <span class="product-header--shape">Shape</span>
+        <span class="product-header--length">Length</span>
+        <span class="product-header--width">Width</span>
+        <span class="product-header--depth">Depth</span>
+      </div>
+      {{ range .Paginator.Pages }}
+        {{ .Render "summary" }}
       {{ end }}
     </section>
   </main>

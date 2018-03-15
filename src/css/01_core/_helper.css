@@ -1,3 +1,6 @@
+.d-b { display: block; }
+.d-ib { display: inline-block; }
+
 .mar-l-auto { margin-left: auto; }
 .mar-r-auto { margin-right: auto; }
 .mar-t-auto { margin-top: auto; }
