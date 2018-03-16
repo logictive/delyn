@@ -50,7 +50,6 @@
 
     .product-thumb {
       display: block;
-      flex: 1;
       margin: 0 auto var(--spacing-lg);
       max-width: 50%;
     }
@@ -75,6 +74,10 @@
       display: block;
       margin: 0 auto var(--spacing-lg);
       max-width: 75%;
+    }
+
+    .product-link {
+      margin-top: auto;
     }
   }
 

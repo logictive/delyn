@@ -24,5 +24,6 @@
         {{ .Render "summary" }}
       {{ end }}
     </section>
+    {{ template "_internal/pagination.html" . }}
   </main>
 {{end}}

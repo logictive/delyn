@@ -1,5 +1,11 @@
+{{ define "header" }}
+  <header class="pagehead pagehead--sm ai-fs">
+    <h1 class="pagehead-title text-light text-uppercase mar-0">{{ .Title }}</h1>
+  </header>
+{{ end }}
+
 {{ define "main" }}
-  <main class="content container {{ .Title }}">
+  <main class="product {{ .Title }}">
     {{ .Content }}
   </main>
 {{end}}

@@ -18,3 +18,13 @@
 .border-round { border-radius: 0.5rem; }
 .border-round-sm { border-radius: 0.25rem; }
 .border-round-lg { border-radius: 1rem; }
+
+.jc-fs { justify-content: flex-start !important; }
+.jc-fe { justify-content: flex-end !important; }
+.jc-c { justify-content: center !important; }
+
+.ai-b { align-items:baseline !important; }
+.ai-c { align-items:center !important; }
+.ai-fe { align-items:flex-end !important; }
+.ai-fs { align-items:flex-start !important; }
+.ai-s { align-items:stretch !important; }
