@@ -6,6 +6,37 @@
 
 {{ define "main" }}
   <main class="product {{ .Title }}">
-    {{ .Content }}
+    <div class="product-meta text-muted">
+      {{ $.Param "productinfo.internetno" | markdownify }} ({{ $.Param "productinfo.productno" | markdownify }})
+    </div>
+    <div class="product-description">{{ .Content }}</div>
+    <table class="product-specs">
+      <tr>
+        <th>Shape</th>
+        <td>{{ $.Param "productinfo.shape" | markdownify }}</td>
+      </tr>
+      <tr>
+        <th>Length</th>
+        <td>{{ $.Param "productinfo.length" | markdownify }}</td>
+      </tr>
+      <tr>
+        <th>Width</th>
+        <td>{{ $.Param "productinfo.width" | markdownify }}</td>
+      </tr>
+      <tr>
+        <th>Depth</th>
+        <td>{{ $.Param "productinfo.depth" | markdownify }}</td>
+      </tr>
+      <tr>
+        <th>Polymer</th>
+        <td>{{ $.Param "productinfo.polymer" | markdownify }}</td>
+      </tr>
+    </table>
+
+    <img class="product-image" src="{{ .Params.imageurl }}">
+
+    {{ if $.Param "3d" }}
+      <button class="product-3d button mar-t-sm mar-r-sm"><i class="fas fa-cube fa-2x mar-r-xs"></i>3D</button>
+    {{ end }}
   </main>
 {{end}}
