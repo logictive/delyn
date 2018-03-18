@@ -1,0 +1,281 @@
+{{ define "main" }}
+  <main class="content pages {{ .Title }}">
+    <div class="text-center text-size-4">
+      {{ .Content }}
+    </div>
+
+    {{ if .Site.Params.phone }}
+    <div class="contact-phone pad-y-lg text-center">
+      <h3>Call Us</h3>
+      <a href="tel:{{ .Site.Params.phone }}" class="button button-xl"><i class="fas fa-phone mar-r-sm"></i>{{ .Site.Params.phone }}</a>
+    </div>
+    {{ end }}
+
+    <form class="contact-form container pad-y-xl">
+      <h3 class="contact-form--title">Message Us</h3>
+      <div class="input-field contact-form--name">
+        <label for="contact-name" class="hide-xs-up">Name</label>
+        <input type="text" id="contact-name" class="input-lg" name="contact-name" placeholder="Name">
+      </div>
+      
+      <div class="input-field contact-form--email">
+        <label for="contact-email" class="hide-xs-up">Email Address</label>
+        <input type="email" id="contact-email" class="input-lg" name="contact-email" placeholder="Email Address">
+      </div>
+
+      <div class="input-field contact-form--phone">
+        <label for="contact-phone" class="hide-xs-up">Phone</label>
+        <input type="tel" id="contact-phone" class="input-lg" name="contact-phone" placeholder="Phone Number">
+      </div>
+
+      <div class="input-field contact-form--message">
+        <label for="contact-message" class="hide-xs-up">Message</label>
+        <textarea name="contact-message" id="contact-message" class="input-lg" placeholder="Message" cols="30" rows="5"></textarea>
+      </div>
+
+      <button type="button" class="contact-form--submit button button-lg disabled">Send Message</button>
+    </form>
+  </main>
+  <section id="map" style="height:30vh;">
+
+  </section>
+{{end}}
+
+{{ define "scripts" }}
+  <script>
+    function initMap() {
+      var delyn = {lat: 51.627621, lng: -3.228049};
+      var styledMapType = new google.maps.StyledMapType (
+        [
+          {
+              "featureType": "administrative.province",
+              "elementType": "all",
+              "stylers": [
+                  {
+                      "visibility": "off"
+                  }
+              ]
+          },
+          {
+              "featureType": "landscape",
+              "elementType": "all",
+              "stylers": [
+                  {
+                      "saturation": -100
+                  },
+                  {
+                      "lightness": 65
+                  },
+                  {
+                      "visibility": "on"
+                  }
+              ]
+          },
+          {
+              "featureType": "poi",
+              "elementType": "all",
+              "stylers": [
+                  {
+                      "saturation": -100
+                  },
+                  {
+                      "lightness": 51
+                  },
+                  {
+                      "hue": "#ff0000"
+                  },
+                  {
+                      "visibility": "simplified"
+                  }
+              ]
+          },
+          {
+              "featureType": "poi",
+              "elementType": "labels.text.fill",
+              "stylers": [
+                  {
+                      "visibility": "off"
+                  }
+              ]
+          },
+          {
+              "featureType": "road.highway",
+              "elementType": "all",
+              "stylers": [
+                  {
+                      "saturation": -100
+                  },
+                  {
+                      "visibility": "simplified"
+                  },
+                  {
+                      "color": "#ffd900"
+                  }
+              ]
+          },
+          {
+              "featureType": "road.highway",
+              "elementType": "geometry.fill",
+              "stylers": [
+                  {
+                      "visibility": "simplified"
+                  }
+              ]
+          },
+          {
+              "featureType": "road.highway",
+              "elementType": "geometry.stroke",
+              "stylers": [
+                  {
+                      "visibility": "simplified"
+                  }
+              ]
+          },
+          {
+              "featureType": "road.highway",
+              "elementType": "labels",
+              "stylers": [
+                  {
+                      "visibility": "off"
+                  }
+              ]
+          },
+          {
+              "featureType": "road.highway",
+              "elementType": "labels.text.fill",
+              "stylers": [
+                  {
+                      "visibility": "off"
+                  }
+              ]
+          },
+          {
+              "featureType": "road.highway",
+              "elementType": "labels.text.stroke",
+              "stylers": [
+                  {
+                      "visibility": "off"
+                  }
+              ]
+          },
+          {
+              "featureType": "road.arterial",
+              "elementType": "all",
+              "stylers": [
+                  {
+                      "saturation": -100
+                  },
+                  {
+                      "lightness": 30
+                  },
+                  {
+                      "visibility": "simplified"
+                  },
+                  {
+                      "color": "#ffe761"
+                  }
+              ]
+          },
+          {
+              "featureType": "road.local",
+              "elementType": "all",
+              "stylers": [
+                  {
+                      "saturation": -100
+                  },
+                  {
+                      "lightness": 40
+                  },
+                  {
+                      "visibility": "simplified"
+                  },
+                  {
+                      "color": "#bfbfbf"
+                  }
+              ]
+          },
+          {
+              "featureType": "transit",
+              "elementType": "all",
+              "stylers": [
+                  {
+                      "saturation": -100
+                  },
+                  {
+                      "visibility": "off"
+                  }
+              ]
+          },
+          {
+              "featureType": "water",
+              "elementType": "geometry",
+              "stylers": [
+                  {
+                      "lightness": -25
+                  },
+                  {
+                      "saturation": -97
+                  },
+                  {
+                      "color": "#616161"
+                  }
+              ]
+          },
+          {
+              "featureType": "water",
+              "elementType": "labels",
+              "stylers": [
+                  {
+                      "visibility": "on"
+                  },
+                  {
+                      "lightness": -25
+                  },
+                  {
+                      "saturation": -100
+                  },
+                  {
+                      "color": "#050505"
+                  }
+              ]
+          },
+          {
+              "featureType": "water",
+              "elementType": "labels.text.stroke",
+              "stylers": [
+                  {
+                      "visibility": "off"
+                  }
+              ]
+          }
+      ],
+      {name: 'Styled Map'});
+
+      var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 14,
+        center: delyn,
+        mapTypeId: google.maps.MapTypeId.ROADMAP
+      });
+
+      map.mapTypes.set('styled_map', styledMapType);
+      map.setMapTypeId('styled_map');
+
+      var contentString = '<div id="map-info">'+
+        '<h5 class="map-info-heading text-uppercase">Delyn Packaging</h5>'+
+        '<address class="map-info-address mar-b-sm">{{ .Site.Params.address }}</address>'+
+        {{ if .Site.Params.phone }}
+        '<p class="map-info-phone mar-b-0"><a href="tel:{{ .Site.Params.phone }}"><i class="fas fa-phone mar-r-xs"></i>{{ .Site.Params.phone }}</a></p>'+
+        {{ end }}
+        '</div>';
+
+      var infowindow = new google.maps.InfoWindow({
+        content: contentString,
+        position: delyn
+      });
+      infowindow.open(map);
+    }
+  </script>
+  <script async defer
+  src="https://maps.googleapis.com/maps/api/js?key={{ .Site.Params.googleapikey }}&callback=initMap">
+  </script>
+{{ end }}

@@ -1,0 +1,24 @@
+@media (--breakpoint-md-up) {
+  @supports (display: grid) {
+    .contact-form {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: var(--spacing-md);
+
+      &--title { grid-column: 1 / span 2; grid-row: 1; justify-self: center; margin-bottom: 0; }
+      &--name { grid-column: 1; grid-row: 2; }
+      &--email { grid-column: 1; grid-row: 3; }
+      &--phone { grid-column: 1; grid-row: 4; }
+      &--message { grid-column: 2; grid-row: 2 / span 3; }
+      &--submit { grid-column: 1 / span 2; grid-row: 5; justify-self: center; }
+
+      .input-field {
+        margin-bottom: 0;
+
+        input, textarea {
+          height: 100%;
+        }
+      }
+    }
+  }
+}

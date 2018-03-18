@@ -60,6 +60,7 @@
         font-family: var(--font-sans-serif);
         font-size: 1.125rem;
         padding: 0.5rem 1rem;
+        text-align: center;
 
         &:--enter {
           text-decoration: none;

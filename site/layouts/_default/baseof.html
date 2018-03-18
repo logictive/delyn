@@ -28,8 +28,13 @@
       </header>
       {{ else }}
       <header class="pagehead {{if $.Param "headerimage" }}pagehead--image pagehead--overlay{{ end }}">
-          {{if $.Param "headerimage" }}<img class="pagehead-image" src="{{ $.Param "headerimage" }}">{{ end }}
-        <h1 class="pagehead-title text-light text-uppercase">{{ .Title }}</h1>
+        {{if $.Param "headerimage" }}<img class="pagehead-image" src="{{ $.Param "headerimage" }}">{{ end }}
+        <div class="pagehead-content">
+          <h1 class="pagehead-title text-light text-uppercase">{{ .Title }}</h1>
+          {{ if $.Param "subtitle" }}
+          <p class="pagehead-subtitle text-light text-center mar-t-sm text-size-4">{{ $.Param "subtitle" }}</p>
+          {{ end }}
+        </div>
       </header>
       {{ end }}
     {{ end }}
@@ -44,5 +49,6 @@
 
 {{ partial "footer/site_footer" . }}
 {{ partial "footer/scripts" . }}
+{{ block "scripts" . }}{{ end }}
 </body>
 </html>
