@@ -1,5 +1,5 @@
 {{ define "main" }}
-  <main class="content {{ .Title }} {{ .Section | urlize }}">
+  <main class="content {{ .Title | urlize }} {{ .Section | urlize }}">
     <div class="product-controls mar-b-lg text-right">
         <button class="button button-light" data-view="productlist--grid-lg">
             <i title="Show as Large Grid" class="fas fa-th-large fa-lg"></i>

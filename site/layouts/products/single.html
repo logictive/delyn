@@ -39,4 +39,12 @@
       <button class="product-3d button mar-t-sm mar-r-sm"><i class="fas fa-cube fa-2x mar-r-xs"></i>3D</button>
     {{ end }}
   </main>
+
+  {{ if $.Param "3d" }}
+      <div class="threedee-container" data-stl="{{ $.Param "3d" }}" style="min-height: 50vh"></div>
+  {{ end }}
 {{end}}
+
+{{ define "scripts" }}
+  
+{{ end }}

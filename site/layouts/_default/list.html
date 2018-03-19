@@ -1,8 +1,11 @@
 {{ define "main" }}
-  <main class="content {{ .Title }} category {{ .Section | urlize }}">
+  <main class="content container {{ .Title }} category {{ .Section | urlize }}">
     {{ range .Data.Pages }}
-      <article>
-        <h2>{{ .Title }}</h2>
+      <article class="news-item bg-light border-round-lg pad-x-lg pad-b-md mar-b-lg">
+        {{if $.Param "headerimage" }}
+          <img class="news-item-image" src="{{ $.Param "headerimage" }}">
+        {{ end }}
+        <h2 class="text-size-6 text-normal pad-t-lg pad-b-md">{{ .Title }}</h2>
         {{ .Content }}
       </article>
     {{ end }}
