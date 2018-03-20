@@ -12,8 +12,8 @@ banner:
     text: "View Products"
     url: "/products/"
   secondaryaction:
-    text: "Download Brochure"
-    url: "/brochure/"
+    text: ""
+    url: ""
 
 productstitle: "Our Products"
 productssubtitle: "We have a huge bank of ‘design led’ tools producing trays for use with a wide range of products"

@@ -10,6 +10,7 @@
 .productcat {
   overflow: hidden;
   position: relative;
+  text-align: center;
   transition: transform 0.2s ease-in-out;
 
   &-image {
@@ -60,6 +61,10 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
     grid-gap: 2rem;
+
+    .products & {
+      grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    }
   }
 
   .productcat {

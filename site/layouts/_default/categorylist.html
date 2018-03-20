@@ -1,0 +1,10 @@
+<ul class="productcats">
+  {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
+  <li class="productcat productcat--{{$name}} mar-b-lg bg-light">
+    <a href="{{ "/categories/" | relLangURL }}{{ $name | urlize }}">
+      <img class="productcat-image" src="/img/categories/{{ $name | urlize }}.jpg">
+      <h3 class="productcat-title text-size-5 text-normal text-dark pad-y-sm pad-x-md">{{ replace $name "-" " " | title }}</h3>
+    </a>
+  </li>
+  {{ end }}
+</ul>
