@@ -5,6 +5,7 @@ seoTitle: "Delyn Packaging, manufacturers of stuff"
 seoDescription: "This is a test of SEO Description"
 headerimage: "/img/home-header-bg-lg.jpg"
 menu: "main"
+weight: 2
 ---
 
 This is a test

@@ -62,7 +62,7 @@
     grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
     grid-gap: 2rem;
 
-    .products & {
+    main.products & {
       grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     }
   }

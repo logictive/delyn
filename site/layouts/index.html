@@ -4,9 +4,18 @@
   <h4 class="section-subheading text-italic mar-x-auto">{{ .Params.productssubtitle }}</h4>
   {{ .Render "categorylist" }}
 </section>
+{{ if .Params.videofeature }}
+<section class="section section--video pad-t-0">
+  <div class="video">
+    <div class="video-wrapper">
+      <iframe width="560" height="315" src="{{ .Params.videofeature }}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+  </div>
+</section>
+{{ end }}
 <section class="section section--bg section--overlay section--feature">
   <img class="section-bg" src="/img/home-feature-bg.jpg">
-  <p class="text-size-6">Want to know when we release new products? Sign up to our mainling list.</p>
+  <p class="text-size-6">Want to know when we release new products? Sign up to our maihudoling list.</p>
   <form class="section-form mar-x-auto" name="signup" action="#">
     <div class="input-group">
       <input type="email" class="input-lg" placeholder="Email">

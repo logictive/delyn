@@ -3,7 +3,7 @@ title: Delyn Packaging statement on plastics.
 author: Jeremy Longsden
 date: 2018-01-18T13:09:00+00:00
 url: /delyn-packaging-statement-plastics/
-
+headerimage: ""
 ---
 Following recent comments in the media regarding plastics, Delyn Packaging have issued the following comment.
 

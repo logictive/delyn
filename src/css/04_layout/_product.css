@@ -22,8 +22,13 @@
 
     .product-image {
       grid-column: image;
-      grid-row: meta / end;
+      grid-row: meta / span 3;
       width: 100%;
+    }
+
+    .product-enquire {
+      grid-column: content;
+      grid-row: 4; 
     }
 
     .product-3d {

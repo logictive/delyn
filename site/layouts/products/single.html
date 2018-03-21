@@ -35,14 +35,15 @@
 
     <img class="product-image" src="{{ .Params.imageurl }}">
 
-    {{ if $.Param "3d" }}
+    <a class="product-enquire button button-lg" href="/contact-us">Enquire Now</a>
+    <!--{{ if $.Param "3d" }}
       <button class="product-3d button mar-t-sm mar-r-sm"><i class="fas fa-cube fa-2x mar-r-xs"></i>3D</button>
-    {{ end }}
+    {{ end }}-->
   </main>
 
-  {{ if $.Param "3d" }}
+  <!--{{ if $.Param "3d" }}
       <div class="threedee-container" data-stl="{{ $.Param "3d" }}" style="min-height: 50vh"></div>
-  {{ end }}
+  {{ end }}-->
 {{end}}
 
 {{ define "scripts" }}

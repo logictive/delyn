@@ -6,7 +6,9 @@ seoDescription: ""
 date: 2018-03-09T17:01:46Z
 draft: false
 menu: "main"
+weight: 1
 layout: "about"
+headerimage: "/img/categories/party.jpg"
 ---
 Delyn are manufacturers of plastic food packaging covering Meat & BBQ, Salads & Wet Pasta, Snacks, Party Foods, Bakery, Convenience / Ready Meals and other sectors and are known for Fast Response, High levels of Flexibility, Short Lead Times and the ability to get things done quickly while maintaining very high levels of quality and service.
 

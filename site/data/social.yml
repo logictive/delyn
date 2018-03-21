@@ -1,11 +1,3 @@
-facebook:
-  name: Facebook
-  url: https://www.facebook.com/
-  icon: facebook
-linkedin:
-  name: LinkedIn
-  url: https://www.linkedin.com/
-  icon: linkedin
 youtube:
   name: YouTube
   url: https://www.youtube.com/channel/UCusqT2cQmwwaH9ixiANg-Yg

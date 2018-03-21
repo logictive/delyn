@@ -2,8 +2,8 @@
   <main class="content container {{ .Title }} category {{ .Section | urlize }}">
     {{ range .Data.Pages }}
       <article class="news-item bg-light border-round-lg pad-x-lg pad-b-md mar-b-lg">
-        {{if $.Param "headerimage" }}
-          <img class="news-item-image" src="{{ $.Param "headerimage" }}">
+        {{if .Params.headerimage }}
+          <img class="news-item-image" src="{{ .Params.headerimage }}">
         {{ end }}
         <h2 class="text-size-6 text-normal pad-t-lg pad-b-md">{{ .Title }}</h2>
         {{ .Content }}
