@@ -1,13 +1,19 @@
 {{ define "main" }}
   <main class="content {{ .Title }}">
     {{ $sections := split .Content "<split>" }}
-    {{ range $sections }}
-    <section class="section section--split text-size-4">
-      <div class="section-split">
-        {{ . | markdownify }}
-      </div>
-      <img class="section-split section-split-image" src="https://placeholdit.co//i/800x600?bg=eeeeee&fc=577084">
-    </section>
+    {{ range $i, $a := $sections }}
+      {{ if or (eq $i 0) (eq (add $i 1) (len $sections)) }}
+        <section class="section text-size-4">
+          {{ $a | markdownify }}
+        </section>
+      {{ else }}
+        <section class="section section--split text-size-4">
+          <div class="section-split">
+            {{ $a | markdownify }}
+          </div>
+          <img class="section-split section-split-image" src="/img/about-section-{{ $i }}.jpg">
+        </section>
+      {{ end }}
     {{end}}
   </main>
 {{end}}
