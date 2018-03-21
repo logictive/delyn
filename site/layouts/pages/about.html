@@ -3,7 +3,7 @@
     {{ $sections := split .Content "<split>" }}
     {{ range $i, $a := $sections }}
       {{ if or (eq $i 0) (eq (add $i 1) (len $sections)) }}
-        <section class="section text-size-4">
+        <section class="section text-size-4 text-light bg-dark text-left">
           {{ $a | markdownify }}
         </section>
       {{ else }}
