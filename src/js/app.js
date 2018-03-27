@@ -14,6 +14,11 @@ function scroll() {
   }
 }
 
+function checkScroll() {
+  position = window.pageYOffset;
+  scroll();
+}
+
 function toggleNav(nav) {
   nav.classList.add('is-active');
   nav.classList.toggle('is-open');
@@ -22,7 +27,7 @@ function toggleNav(nav) {
   });
 }
 
-scroll();
+window.onload = checkScroll;
 
 window.addEventListener('scroll', scroll);
 

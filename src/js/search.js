@@ -1,3 +1,4 @@
+var summaryInclude = 60;
 var fuseOptions = {
   shouldSort: true,
   includeMatches: true,
@@ -21,6 +22,7 @@ var searchInput = document.querySelector('.search-input');
 
 var searchPageInput = document.querySelector('#search-page-query');
 var searchResults = document.querySelector('#search-results');
+var searchResultTemplate = document.querySelector('#search-result-template');
 var searchQuery = new URLSearchParams(document.location.search.substr(1)).get('s');
 
 function toggleSearch() {
@@ -46,6 +48,7 @@ function doFuse(data) {
   var result = fuse.search(searchQuery);
   if (result.length > 0) {
     displayResults(result);
+    console.log(result);
   } else {
     var p = document.createElement('p');
     p.appendChild(document.createTextNode('No matches found'));
@@ -53,8 +56,50 @@ function doFuse(data) {
   }
 }
 
-function displayResults() {
+function displayResults(results) {
+  for (const result of results) {
+    var data = result.item;
+    var id = data.internetNo + ' (' + data.productNo + ')';
+    var title = data.title;
+    var contents = data.contents;
+    var snippet = '';
+    var types = data.types;
+    var categories = data.categories;
+    var shape = data.shape;
+    var permalink = data.permalink;
+    var polymer = data.polymer;
+    var image = data.image;
 
+    if (snippet.length < 1) {
+      snippet += contents.substring(0, summaryInclude * 2) + '&hellip;';
+    }
+
+    var templateDefinition = searchResultTemplate.innerHTML;
+    var output = renderResult(templateDefinition, {
+      id:id,
+      title:title,
+      snippet:snippet,
+      types:types,
+      categories:categories,
+      shape:shape,
+      link:permalink,
+      polymer:polymer,
+      image:image,
+    });
+    var e = document.createElement('div');
+    e.innerHTML = output;
+    searchResults.appendChild(e);
+  }
+}
+
+function renderResult(template, data) {
+  var key, find, re;
+  for (key in data) {
+    find = '\\$\\{\\s*' + key + '\\s*\\}';
+    re = new RegExp(find, 'g');
+    template = template.replace(re, data[key]);
+  }
+  return template;
 }
 
 
