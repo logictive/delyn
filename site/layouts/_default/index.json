@@ -1,0 +1,8 @@
+{{- $.Scratch.Add "index" slice -}}
+{{- range .Site.RegularPages -}}
+  {{- $.Scratch.Add "index" (dict "title" .Title "contents" .Plain "permalink" .Permalink) -}}
+{{- end -}}
+{{- range where .Site.Pages "Type" "products" -}}
+  {{- $.Scratch.Add "index" (dict "title" .Title "contents" .Plain "types" .Params.types "categories" .Params.categories "internet-no" (.Param "productinfo.internetno") "product-no" (.Param "productinfo.productno") "polymer" (.Param "productinfo.polymer") "shape" (.Param "productinfo.shape") "permalink" .Permalink) -}}
+{{- end -}}
+{{- $.Scratch.Get "index" | jsonify -}}

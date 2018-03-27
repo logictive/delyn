@@ -13,13 +13,15 @@
   <button class="navbar-toggle" type="button" data-target="#navPrimary" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <i title="Toggle Navigation" class="fas fa-bars fa-lg"></i>
   </button>
-
-  <ul class="navbar-nav mar-l-auto mar-b-0" id="navPrimary">
-    {{ range .Site.Menus.main }}
-      <li class="text-uppercase">
-        <a class="px-3 py-2" href="{{ .URL }}">{{ .Name }}</a>
-      </li>
-    {{ end }}
-  </ul>
-  {{ partial "social" . }}
+  <div class="navbar-wrapper mar-l-auto">
+    <ul class="navbar-nav mar-b-0">
+      {{ range .Site.Menus.main }}
+        <li class="text-uppercase">
+          <a class="px-3 py-2" href="{{ .URL }}">{{ .Name }}</a>
+        </li>
+      {{ end }}
+    </ul>
+    {{ partial "social" . }}
+    {{ partial "searchform" . }}
+  </div>
 </nav>

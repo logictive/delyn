@@ -2,7 +2,6 @@ baseurl = "/"
 languageCode = "en-gb"
 languageLang = "en-gb"
 title = "Delyn Packaging"
-disableKinds = ["RSS"]
 preserveTaxonomyNames=true
 paginate = 12
 googleAnalytics = ""
@@ -14,6 +13,9 @@ googleAnalytics = ""
 [permalinks]
   pages = "/:title"
   posts = "/:title"
+
+[outputs]
+  home = ["HTML", "JSON"]
 
 [params]
   logo = "delyn-logo.svg"

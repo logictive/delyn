@@ -1,32 +1,38 @@
-// JS Goes here - ES6 supported
+import search from './search.js';
 
 var nav = document.querySelector('.navbar');
 var position = 0;
 var navShrink = 200;
 
-window.addEventListener('scroll', function(){
-  if(position < navShrink) {
+function scroll() {
+  if (position < navShrink) {
     nav.classList.remove('is-shrunk');
     position = window.pageYOffset;
   } else {
     nav.classList.add('is-shrunk');
     position = window.pageYOffset;
   }
-});
+}
+
+function toggleNav(nav) {
+  nav.classList.add('is-active');
+  nav.classList.toggle('is-open');
+  nav.addEventListener('transitionend', () => {
+    nav.classList.remove('is-active');
+  });
+}
+
+scroll();
+
+window.addEventListener('scroll', scroll);
 
 var navToggle = document.querySelector('.navbar-toggle');
-var navbarNav = document.querySelector('.navbar-nav');
+var navbarNav = document.querySelector('.navbar-wrapper');
 
-navToggle.addEventListener('click', () => {
-    navbarNav.classList.add('is-active');
-    navbarNav.classList.toggle('is-open');
-    navbarNav.addEventListener('transitionend', () => {
-      navbarNav.classList.remove('is-active');
-    })
-});
+navToggle.addEventListener('click', () => toggleNav(navbarNav));
 
 window.addEventListener('resize', () => {
-  if ( window.innerWidth > 767) {
+  if (window.innerWidth > 767) {
     navbarNav.classList.remove('is-open');
   }
 });
@@ -37,7 +43,7 @@ var productList = document.querySelector('.productlist');
 
 productControls.forEach(function(item) {
   item.addEventListener('click', function() {
-    Array.from(this.parentElement.children).forEach((child) => { child.classList.add('button-light') });
+    Array.from(this.parentElement.children).forEach((child) => { child.classList.add('button-light'); });
     this.classList.remove('button-light');
     var viewType = this.dataset.view;
     productList.classList.add('is-changing');
@@ -47,3 +53,5 @@ productControls.forEach(function(item) {
     });
   });
 });
+
+

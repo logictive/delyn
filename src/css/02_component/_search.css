@@ -1,0 +1,12 @@
+@media (--breakpoint-md-up) {
+  .navbar {
+    #search-query {
+      max-width: 0;
+      overflow: hidden;
+    
+      &.is-open {
+        max-width: 100%;
+      }
+    }
+  }
+}
