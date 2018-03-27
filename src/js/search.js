@@ -9,10 +9,14 @@ var fuseOptions = {
   maxPatternLength: 32,
   minMatchCharLength: 2,
   keys: [
-    {name:"title",weight:0.8},
-    {name:"contents",weight:0.5},
-    {name:"types",weight:0.3},
-    {name:"categories",weight:0.3}
+    {name:'internetNo', weight:0.9},
+    {name:'productNo', weight:0.9},
+    {name:'title', weight:0.8},
+    {name:'contents', weight:0.5},
+    {name:'types', weight:0.3},
+    {name:'categories', weight:0.3},
+    {name:'shape', weight:0.3},
+    {name:'polymer', weight:0.3},
   ]
 };
 
