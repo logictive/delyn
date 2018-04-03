@@ -1,0 +1,10 @@
+{{ $image_path := substr .image 0 -4 }}
+{{ $image_type := substr .image (sub (len .image) 3) 3 }}
+<a class="progressiveImage{{ if .cover }} progressiveImage--cover{{ end }} replace" href="{{ .image }}"
+  data-srcset="{{ $image_path }}-sm.{{ $image_type }} 320w,
+    {{ $image_path }}-md.{{ $image_type }} 640w,
+    {{ $image_path }}-lg.{{ $image_type }} 1024w,
+    {{ .image }} 1280w"
+    {{ if .sizes }}data-sizes="{{ .sizes }}"{{ end }}>
+    <img src="{{ $image_path }}-tmb.jpg" class="progressiveImage__preview"{{ if .alt }} alt="{{ .alt }}"{{ end }}>
+</a>

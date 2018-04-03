@@ -1,0 +1,38 @@
+/* progressive image CSS */
+.progressiveImage {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  outline: none;
+}
+
+.progressiveImage img {
+  display: block;
+  width: 100%;
+  max-width: none;
+  height: auto;
+  border: 0 none;
+}
+
+.progressiveImage--cover img {
+  object-fit: cover;
+  height: 100%;
+}
+
+.progressiveImage__preview {
+  filter: blur(2vw);
+  transform: scale(1);
+}
+
+.progressiveImage__reveal {
+  position: absolute;
+  left: 0;
+  top: 0;
+  will-change: opacity;
+  animation: progressiveReveal 1s ease-out;
+}
+
+@keyframes progressiveReveal {
+	0% { opacity: 0; }
+	100% { opacity: 1; }
+}

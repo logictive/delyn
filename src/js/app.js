@@ -1,4 +1,5 @@
-import search from './search.js';
+import './search';
+import './progressiveimage';
 
 var nav = document.querySelector('.navbar');
 var position = 0;
@@ -27,7 +28,9 @@ function toggleNav(nav) {
   });
 }
 
-window.onload = checkScroll;
+window.onload = function() {
+  checkScroll();
+};
 
 window.addEventListener('scroll', scroll);
 
