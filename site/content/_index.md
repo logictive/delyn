@@ -2,7 +2,7 @@
 title: "Home"
 seoTitle: "Delyn Packaging, manufacturers of bespoke packaging"
 seoDescription: "This is a test of SEO Description"
-headerimage: "/img/home-header-bg-lg.jpg"
+headerimage: "/img/home-header-bg.jpg"
 
 banner:
   enabled: true

@@ -1,5 +1,5 @@
 import gulp from 'gulp';
-import debug from 'gulp-debug';
+//import debug from 'gulp-debug';
 //import log from 'fancy-log';
 import {spawn} from 'child_process';
 import hugoBin from 'hugo-bin';
@@ -92,13 +92,11 @@ gulp.task('images', () => {
     }
 
     gulp.src('./src/img/**/*.{jpg,png}', {base: './src/img/'})
-      .pipe(debug({title: 'before-resize:'}))
       .pipe(imageresize(resize_settings))
       .pipe(imagemin({progressive: true}))
       .pipe(rename((path) => {
         path.basename = size.name ? path.basename + '-' + size.name : path.basename;
       }))
-      .pipe(debug({title: 'after-resize:'}))
       .pipe(gulp.dest('./dist/img/'));
   });
 
