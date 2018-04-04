@@ -100,7 +100,7 @@ gulp.task('images', () => {
       .pipe(gulp.dest('./dist/img/'));
   });
 
-  gulp.src('./src/img/**/*.{svg}', {base: './src/img/'})
+  gulp.src('./src/img/**/*.svg', {base: './src/img/'})
     .pipe(imagemin({
       progressive: true,
       svgoPlugins: [{removeViewBox: false}]
