@@ -1,4 +1,4 @@
-import checkVisible from './checkVisible';
+import checkVisible from './check-visible';
 if (window.addEventListener && window.requestAnimationFrame && document.getElementsByClassName) window.addEventListener('load', function() {
   // start
   var pItem = document.getElementsByClassName('progressiveImage replace'), pCount, timer;
@@ -24,9 +24,13 @@ if (window.addEventListener && window.requestAnimationFrame && document.getEleme
   // image in view?
   function inView() {
     if (pItem.length) requestAnimationFrame(function() {
-      if (checkVisible(pItem)) {
-        loadFullImage(pItem[p]);
-        pItem[p].classList.remove('replace');
+      var p = 0;
+      while (p < pItem.length) {
+        if (checkVisible(pItem)) {
+          loadFullImage(pItem[p]);
+          pItem[p].classList.remove('replace');
+        }
+        p++;
       }
       /*var wT = window.pageYOffset, wB = wT + window.innerHeight, cRect, pT, pB, p = 0;
       while (p < pItem.length) {
