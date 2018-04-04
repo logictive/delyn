@@ -26,26 +26,12 @@ if (window.addEventListener && window.requestAnimationFrame && document.getEleme
     if (pItem.length) requestAnimationFrame(function() {
       var p = 0;
       while (p < pItem.length) {
-        if (checkVisible(pItem)) {
+        if (checkVisible(pItem[p])) {
           loadFullImage(pItem[p]);
           pItem[p].classList.remove('replace');
         }
         p++;
       }
-      /*var wT = window.pageYOffset, wB = wT + window.innerHeight, cRect, pT, pB, p = 0;
-      while (p < pItem.length) {
-        cRect = pItem[p].getBoundingClientRect();
-        pT = wT + cRect.top;
-        pB = pT + cRect.height;
-
-        if (wT < pB && wB > pT) {
-          loadFullImage(pItem[p]);
-          pItem[p].classList.remove('replace');
-        }
-        else p++;
-
-      }*/
-
       pCount = pItem.length;
 
     });

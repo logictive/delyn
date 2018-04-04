@@ -1,4 +1,6 @@
 import gulp from 'gulp';
+import debug from 'gulp-debug';
+import log from 'fancy-log';
 import {spawn} from 'child_process';
 import hugoBin from 'hugo-bin';
 import gutil from 'gulp-util';
@@ -6,10 +8,13 @@ import flatten from 'gulp-flatten';
 import postcss from 'gulp-postcss';
 import sourcemaps from 'gulp-sourcemaps';
 import cssNano from 'gulp-cssnano';
+import rename from 'gulp-rename';
 import cssImport from 'postcss-import';
 import nested from 'postcss-nested';
 import cssNext from 'postcss-cssnext';
 import BrowserSync from 'browser-sync';
+import imageresize from 'gulp-image-resize';
+import imagemin from 'gulp-imagemin';
 import webpack from 'webpack';
 import webpackConfig from './webpack.conf';
 
@@ -68,35 +73,43 @@ gulp.task('fonts', () => (
     .pipe(browserSync.stream())
 ));
 
-var images = [
-  {size: 'tmb', width: 30, crop: false},
-  {size: 'sm', width: 640, crop: false},
-  {size: 'md', width: 1024, crop: false},
-  {size: 'lg', width: 1280, crop: false}
+var sizes = [
+  {name: 'tmb', width: 30, crop: false},
+  {name: 'sm', width: 640, crop: false},
+  {name: 'md', width: 1024, crop: false},
+  {name: 'lg', width: 1280, crop: false},
+  {name: '', width: 2024, crop: false}
 ];
-
 gulp.task('images', () => {
-  images.forEach((type) => {
+  sizes.forEach((size) => {
     var resize_settings = {
-      width: type.width,
-      crop: type.crop,
-      // never increase image dimensions
+      width: size.width,
+      crop: size.crop,
       upscale : false
     };
-    if (type.hasOwnProperty('height')) {
-      resize_settings.height = type.height;
+    if (size.hasOwnProperty('height')) {
+      resize_settings.height = size.height;
     }
 
-    gulp.src('./src/img/**/*.{jpg,png,gif}');
+    gulp.src('./src/img/**/*.{jpg,png}', {base: './src/img/'})
+      .pipe(imageresize(resize_settings))
+      .pipe(imagemin({progressive: true}))
+      .pipe(rename((path) => {
+        path.basename = size.name ? path.basename + '-' + size.name : path.basename;
+      }))
+      .pipe(gulp.dest('./dist/img/'));
   });
-  //https://gist.github.com/ryantbrown/239dfdad465ce4932c81
 
-  gulp.src('./src/img/**/*.{svg}');
-
+  gulp.src('./src/img/**/*.{svg}', {base: './src/img/'})
+    .pipe(imagemin({
+      progressive: true,
+      svgoPlugins: [{removeViewBox: false}]
+    }))
+    .pipe(gulp.dest('./dist/img/'));
 });
 
 // Development server with browsersync
-gulp.task('server', ['hugo', 'css', 'js', 'fonts'], () => {
+gulp.task('server', ['hugo', 'css', 'js', 'fonts', 'images'], () => {
   browserSync.init({
     server: {
       baseDir: './dist'
@@ -105,6 +118,7 @@ gulp.task('server', ['hugo', 'css', 'js', 'fonts'], () => {
   gulp.watch('./src/js/**/*.js', ['js']);
   gulp.watch('./src/css/**/*.css', ['css']);
   gulp.watch('./src/fonts/**/*', ['fonts']);
+  gulp.watch('./src/images/**/*', ['images']);
   gulp.watch('./site/**/*', ['hugo']);
 });
 

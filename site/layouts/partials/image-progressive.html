@@ -1,6 +1,6 @@
 {{ $image_path := substr .image 0 -4 }}
 {{ $image_type := substr .image (sub (len .image) 3) 3 }}
-<a class="progressiveImage{{ if .cover }} progressiveImage--cover{{ end }} replace" href="{{ .image }}"
+<a class="progressiveImage{{ if .cover }} progressiveImage--cover{{ end }}{{ if .class }} {{ .class }}{{ end }} replace" href="{{ .image }}"
   data-srcset="{{ $image_path }}-sm.{{ $image_type }} 320w,
     {{ $image_path }}-md.{{ $image_type }} 640w,
     {{ $image_path }}-lg.{{ $image_type }} 1024w,

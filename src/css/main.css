@@ -2,6 +2,7 @@
 @import "01_core/_variables.css";
 @import "01_core/_helper.css";
 @import "02_component/_button.css";
+@import "02_component/_progressiveimage.css";
 @import "02_component/_social.css";
 @import "02_component/_nav.css";
 @import "02_component/_hero.css";
@@ -15,6 +16,5 @@
 @import "02_component/_news.css";
 @import "02_component/_video.css";
 @import "02_component/_search.css";
-@import "02_component/_progressiveimage.css";
 @import "04_layout/_page.css";
 @import "04_layout/_product.css";

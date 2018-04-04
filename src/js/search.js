@@ -52,7 +52,6 @@ function doFuse(data) {
   var result = fuse.search(searchQuery);
   if (result.length > 0) {
     displayResults(result);
-    console.log(result);
   } else {
     var p = document.createElement('p');
     p.appendChild(document.createTextNode('No matches found'));
