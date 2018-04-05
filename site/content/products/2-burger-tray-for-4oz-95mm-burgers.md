@@ -3,7 +3,7 @@ title: "2 Burger Tray for 4oz 95mm burgers"
 date: 2014-03-18T00:00:00Z
 draft: false
 imagealt: ""
-imageurl: ""
+
 3d: "/3d/products/0-170-2-X-4-SHALLOW-BURGER.stl"
 categories: ["Meat & BBQ","Burger Trays"]
 types: ["Tray"]

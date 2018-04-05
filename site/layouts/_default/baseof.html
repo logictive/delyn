@@ -13,7 +13,7 @@
     {{ block "header" . }}
       {{ if $.Param "banner.enabled" }}
       <header class="hero">
-        {{ partial "image-progressive.html" (dict "image" ( $.Param "headerimage" ) "class" "hero-image" "alt" "Hero Banner Background" "sizes" "(min-width: 36em) 33vw, 100vw" "cover" true ) }}
+        {{ partial "image-progressive.html" (dict "image" ( $.Param "headerimage" ) "class" "hero-image" "alt" "Hero Banner Background" "sizes" "100vw" "cover" true ) }}
         <div class="hero-content">
           <h1 class="hero-title text-light text-uppercase">{{ $.Param "banner.title" | markdownify }}</h1>
           <div class="hero-text text-light mar-t-sm">{{ $.Param "banner.text" | markdownify }}</div>
@@ -29,7 +29,7 @@
       {{ else }}
       <header class="pagehead {{if $.Param "headerimage" }}pagehead--image pagehead--overlay{{ end }}">
         {{if $.Param "headerimage" }}
-          {{ partial "image-progressive.html" (dict "image" ( $.Param "headerimage" ) "class" "pagehead-image" "alt" "Page Header Background" "sizes" "(min-width: 36em) 33vw, 100vw" "cover" true ) }}
+          {{ partial "image-progressive.html" (dict "image" ( $.Param "headerimage" ) "class" "pagehead-image" "alt" "Page Header Background" "sizes" "100vw" "cover" true ) }}
         {{ end }}
         <div class="pagehead-content">
           <h1 class="pagehead-title text-light text-uppercase">{{ .Title }}</h1>

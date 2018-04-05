@@ -29,7 +29,7 @@
   left: 0;
   top: 0;
   will-change: opacity;
-  animation: progressiveReveal 0.4s ease-out;
+  animation: progressiveReveal 0.2s linear;
 }
 
 @keyframes progressiveReveal {

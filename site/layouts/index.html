@@ -14,7 +14,7 @@
 </section>
 {{ end }}
 <section class="section section--bg section--overlay section--feature">
-  <img class="section-bg" src="/img/home-feature-bg.jpg">
+  {{ partial "image-progressive.html" (dict "image" "/img/home-feature-bg.jpg" "class" "section-bg" "alt" "Home Feature Background" "sizes" "100vw" "cover" true ) }}
   <p class="text-size-6">Want to know when we release new products? Sign up to our mailing list.</p>
   <form class="section-form mar-x-auto" name="signup" action="#">
     <div class="input-group">

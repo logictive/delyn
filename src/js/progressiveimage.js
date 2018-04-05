@@ -42,15 +42,16 @@ if (window.addEventListener && window.requestAnimationFrame && document.getEleme
   // replace with full image
   function loadFullImage(item) {
     var href = item && (item.getAttribute('data-href') || item.href);
-    if (!href) return;
+    //if (!href) return;
 
     // load image
     var img = new Image();
     if (item.dataset) {
       img.srcset = item.dataset.srcset || '';
       img.sizes = item.dataset.sizes || '';
+      img.src = item.dataset.src;
     }
-    img.src = href;
+    if (!img.src) img.src = href;
     img.className = 'progressiveImage__reveal';
     if (img.complete) addImg();
     else img.onload = addImg;
@@ -61,7 +62,7 @@ if (window.addEventListener && window.requestAnimationFrame && document.getEleme
       requestAnimationFrame(function() {
 
         // disable click
-        if (href === item.href) {
+        if (href === item.href && !item.classList.contains('progressiveImage--anchorless')) {
           item.style.cursor = 'default';
           item.addEventListener('click', function(e) { e.preventDefault(); }, false);
         }

@@ -11,7 +11,7 @@
           <div class="section-split">
             {{ $a | markdownify }}
           </div>
-          {{ partial "image-progressive.html" (dict "image" ( printf "/img/about-section-%d.jpg" $i ) "class" "section-split section-split-image" "alt" "This is a test" "sizes" "(min-width: 36em) 33vw, 50vw, 100vw" "cover" true ) }}
+          {{ partial "image-progressive.html" (dict "image" ( printf "/img/about-section-%d.jpg" $i ) "class" "section-split section-split-image" "alt" "This is a test" "sizes" "(min-width: 48em) 33vw, 100vw" "cover" true ) }}
         </section>
       {{ end }}
     {{end}}

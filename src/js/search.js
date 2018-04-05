@@ -1,3 +1,5 @@
+import getUrlParameter from './urlparameters';
+
 var summaryInclude = 60;
 var fuseOptions = {
   shouldSort: true,
@@ -27,7 +29,7 @@ var searchInput = document.querySelector('.search-input');
 var searchPageInput = document.querySelector('#search-page-query');
 var searchResults = document.querySelector('#search-results');
 var searchResultTemplate = document.querySelector('#search-result-template');
-var searchQuery = new URLSearchParams(document.location.search.substr(1)).get('s');
+var searchQuery = getUrlParameter('s');
 
 function toggleSearch() {
   if (!searchForm.classList.contains('is-open')) {

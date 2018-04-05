@@ -1,7 +1,9 @@
 <article class="product product--summary bg-light">
   <a href="{{ .Permalink }}">
     <!-- Thumb -->
-    <img class="product-thumb" src="{{ .Params.imageurl }}">
+    {{ if and (isset .Params "imageurl") (not (eq .Params.imageurl "")) }}
+      <img src="{{ .Params.imageurl }}" alt="{{ .Title }}" class="product-thumb">
+    {{ end }}
     <!--description-->
     <h3 class="product-title text-normal">{{ .Title }}</h3>
     <div class="product-id text-muted">{{ $.Param "productinfo.internetno" }}</div>
