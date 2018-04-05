@@ -45,3 +45,35 @@ collections:
             fields:
               - {label: "SEO Title", name: title, widget: string}
               - {label: "SEO Description", name: description, widget: string}
+          - label: "Header"
+            name: "header"
+            widget: "object"
+            fields:
+            - {label: "Image", name: image, widget: image}
+            - {label: "Heading", name: heading, widget: string}
+            - {label: "Text", name: text, widget: text}
+            - label: "Primary Action",
+              name: "primaryaction",
+              widget: "object"
+              fields: 
+                - {label: "Text", name: text, widget: string}
+                - {label: "URL", name: url, widget: string}
+            - label: "Primary Action",
+              name: "primaryaction",
+              widget: "object"
+              fields: 
+                - {label: "Text", name: text, widget: string}
+                - {label: "URL", name: url, widget: string}
+          - label: "Products Section"
+            name: "products"
+            widget: "object"
+            fields:
+            - {label: "Heading", name: heading, widget: string}
+            - {label: "Subheading", name: subheading, widget: text}
+          - {label: "Video Embed Link", name: videofeature, widget: string}
+          - label: "Subscription Section"
+            name: "subscribe"
+            widget: "object"
+            fields:
+            - {label: "Show subscribe section", name: enabled, widget: boolean}
+            - {label: "Caption (shown before form)", name: caption, widget: text}
