@@ -23,9 +23,9 @@
 </section>
 {{ if .Params.videofeature }}
 <section class="section section--video pad-t-0">
-  <div class="video">
-    <div class="video-wrapper">
-      <iframe width="560" height="315" src="{{ .Params.videofeature }}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  <div class="youtube" data-embed="{{ .Params.videofeature }}">
+    <div class="youtube-wrapper">
+      <div class="youtube-button"></div>
     </div>
   </div>
 </section>

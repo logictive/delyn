@@ -19,7 +19,7 @@ products:
   heading: "Our Products"
   subheading: "We have a huge bank of ‘design led’ tools producing trays for use with a wide range of products"
 
-videofeature: "https://www.youtube.com/embed/wuggRGeLk_c?rel=0&amp;showinfo=0"
+videofeature: "wuggRGeLk_c"
 
 subscribe:
   enabled: true

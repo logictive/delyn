@@ -1,5 +1,6 @@
 import './search';
 import './progressiveimage';
+import './youtube-embed';
 
 var nav = document.querySelector('.navbar');
 var position = 0;
