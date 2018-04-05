@@ -11,7 +11,6 @@ collections:
       - name: "social"
         label: "Social Media"
         file: "data/social.yml"
-        extension: "yml"
         fields:
           - label: "Social Media"
             name: "social"
@@ -21,8 +20,8 @@ collections:
               - {label: "Link (URL)", name: "url", widget: "string"}
               - {label: "FontAwesome Icon Name (without fa*-)", name: "icon", widget: "string"}
       
-  - name: "posts"
-    label: "News"
+  - label: "News"
+    name: "posts"
     folder: "site/content/posts"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
@@ -31,3 +30,18 @@ collections:
     - {label: "Publish Date", name: "date", widget: "datetime", data}
     - {label: "Featured Image", name: "headerimage", widget: "image"}
     - {label: "Body", name: "body", widget: "markdown"}
+
+  - label: "Pages"
+    name: "pages"
+    files:
+      - label: "Home"
+        name: "home"
+        file: "site/content/_index.md"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - label: "SEO"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {label: "SEO Title", name: seoTitle, widget: string}
+              - {label: "SEO Description", name: seoDescription, widget: string}

@@ -1,3 +1,20 @@
+{{ define "header" }}
+  <header class="hero">
+    {{ partial "image-progressive.html" (dict "image" ( $.Param "headerimage" ) "class" "hero-image" "alt" "Hero Banner Background" "sizes" "100vw" "cover" true ) }}
+    <div class="hero-content">
+      <h1 class="hero-title text-light text-uppercase">{{ .Params.headertitle | markdownify }}</h1>
+      <div class="hero-text text-light mar-t-sm">{{ .Params.headertext | markdownify }}</div>
+      <div class="hero-action mar-t-md">
+        <a href="{{ .Params.primaryactionurl | urlize }}" class="button button-xl">{{ .Params.primaryactiontext }}</a>
+        {{ if .Params.secondaryactiontext }}<a href="{{ .Params.secondaryactionurl | urlize }}" class="button button-xl button-outline-light">{{ .Params.secondaryactiontext }}</a>{{ end }}
+      </div>
+    </div>
+    <svg class="hero-divider" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 50" preserveAspectRatio="none">
+      <path d="M0,0c100,60,400,60,500,0v54.9H0V0z"/>
+    </svg>
+  </header>
+{{ end }}
+
 {{ define "main" }}
 <section class="products section">
   <h2 class="section-heading text-uppercase mar-b-md">{{ .Params.productstitle }}</h2>

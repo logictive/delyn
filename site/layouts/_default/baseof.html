@@ -11,22 +11,6 @@
   <body>
     {{ partial "nav" . }}
     {{ block "header" . }}
-      {{ if $.Param "banner.enabled" }}
-      <header class="hero">
-        {{ partial "image-progressive.html" (dict "image" ( $.Param "headerimage" ) "class" "hero-image" "alt" "Hero Banner Background" "sizes" "100vw" "cover" true ) }}
-        <div class="hero-content">
-          <h1 class="hero-title text-light text-uppercase">{{ $.Param "banner.title" | markdownify }}</h1>
-          <div class="hero-text text-light mar-t-sm">{{ $.Param "banner.text" | markdownify }}</div>
-          <div class="hero-action mar-t-md">
-            <a href="{{ $.Param "banner.primaryaction.url" | urlize }}" class="button button-xl">{{ $.Param "banner.primaryaction.text" }}</a>
-            {{ if $.Param "banner.secondaryaction.text" }}<a href="{{ $.Param "banner.secondaryaction.url" | urlize }}" class="button button-xl button-outline-light">{{ $.Param "banner.secondaryaction.text" }}</a>{{ end }}
-          </div>
-        </div>
-        <svg class="hero-divider" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 50" preserveAspectRatio="none">
-          <path d="M0,0c100,60,400,60,500,0v54.9H0V0z"/>
-        </svg>
-      </header>
-      {{ else }}
       <header class="pagehead {{if $.Param "headerimage" }}pagehead--image pagehead--overlay{{ end }}">
         {{if $.Param "headerimage" }}
           {{ partial "image-progressive.html" (dict "image" ( $.Param "headerimage" ) "class" "pagehead-image" "alt" "Page Header Background" "sizes" "100vw" "cover" true ) }}
@@ -38,7 +22,6 @@
           {{ end }}
         </div>
       </header>
-      {{ end }}
     {{ end }}
 
     {{ block "main" . }}
