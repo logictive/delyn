@@ -1,7 +1,8 @@
 ---
 title: "Home"
-seoTitle: "Delyn Packaging, manufacturers of bespoke packaging"
-seoDescription: "This is a test of SEO Description"
+seo:
+  title: "Delyn Packaging, manufacturers of bespoke packaging"
+  description: "This is a test of SEO Description"
 
 headerimage: "/img/home-header-bg.jpg"
 headertitle: "Thermoformed Packaging Specialists"
