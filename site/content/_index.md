@@ -23,5 +23,6 @@ videofeature: "https://www.youtube.com/embed/wuggRGeLk_c?rel=0&amp;showinfo=0"
 
 subscribe:
   enabled: true
+  image: "/img/home-feature-bg.jpg"
   caption: "Want to know when we release new products? Sign up to our mailing list."
 ---

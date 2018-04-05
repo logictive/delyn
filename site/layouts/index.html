@@ -5,8 +5,8 @@
       <h1 class="hero-title text-light text-uppercase">{{ $.Param "header.heading" | markdownify }}</h1>
       <div class="hero-text text-light mar-t-sm">{{ $.Param "header.text" | markdownify }}</div>
       <div class="hero-action mar-t-md">
-        <a href="{{ $.Param "header.primaryactionurl" | urlize }}" class="button button-xl">{{ $.Param "header.primaryactiontext" }}</a>
-        {{ if $.Param "header.secondaryactiontext" }}<a href="{{ $.Param "header.secondaryactionurl" | urlize }}" class="button button-xl button-outline-light">{{ $.Param "header.secondaryactiontext" }}</a>{{ end }}
+        <a href="{{ $.Param "header.primaryaction.url" | urlize }}" class="button button-xl">{{ $.Param "header.primaryaction.text" }}</a>
+        {{ if $.Param "header.secondaryaction.text" }}<a href="{{ $.Param "header.secondaryaction.url" | urlize }}" class="button button-xl button-outline-light">{{ $.Param "header.secondaryaction.text" }}</a>{{ end }}
       </div>
     </div>
     <svg class="hero-divider" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 50" preserveAspectRatio="none">
@@ -17,8 +17,8 @@
 
 {{ define "main" }}
 <section class="products section">
-  <h2 class="section-heading text-uppercase mar-b-md">{{ .Params.productstitle }}</h2>
-  <h4 class="section-subheading text-italic mar-x-auto">{{ .Params.productssubtitle }}</h4>
+  <h2 class="section-heading text-uppercase mar-b-md">{{ $.Param "products.heading" }}</h2>
+  <h4 class="section-subheading text-italic mar-x-auto">{{ $.Param "products.subheading" }}</h4>
   {{ .Render "categorylist" }}
 </section>
 {{ if .Params.videofeature }}
@@ -30,9 +30,10 @@
   </div>
 </section>
 {{ end }}
+{{ if $.Param "subscribe.enabled" }}
 <section class="section section--bg section--overlay section--feature">
-  {{ partial "image-progressive.html" (dict "image" "/img/home-feature-bg.jpg" "class" "section-bg" "alt" "Home Feature Background" "sizes" "100vw" "cover" true ) }}
-  <p class="text-size-6">Want to know when we release new products? Sign up to our mailing list.</p>
+  {{ partial "image-progressive.html" (dict "image" ($.Param "subscribe.image") "class" "section-bg" "alt" "Home Feature Background" "sizes" "100vw" "cover" true ) }}
+  <p class="text-size-6">{{ $.Param "subscribe.caption" }}</p>
   <form class="section-form mar-x-auto" name="signup" action="#">
     <div class="input-group">
       <input type="email" class="input-lg" placeholder="Email">
@@ -40,4 +41,5 @@
     </div>
   </form>
 </section>
+{{ end }}
 {{ end }}
