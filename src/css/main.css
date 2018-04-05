@@ -1,4 +1,11 @@
-@import "../../node_modules/shoelace-css/source/css/shoelace.css";
+/* Shoelace */
+@import '../../node_modules/shoelace-css/source/css/variables.css';
+@import '../../node_modules/shoelace-css/source/css/normalize.css';
+@import '../../node_modules/shoelace-css/source/css/content.css';
+@import '../../node_modules/shoelace-css/source/css/buttons.css';
+@import '../../node_modules/shoelace-css/source/css/forms.css';
+@import '../../node_modules/shoelace-css/source/css/utilities.css';
+
 @import "01_core/_variables.css";
 @import "01_core/_helper.css";
 @import "02_component/_button.css";

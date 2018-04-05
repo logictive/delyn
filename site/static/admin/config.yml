@@ -52,14 +52,14 @@ collections:
               - {label: "Image", name: image, widget: image}
               - {label: "Heading", name: heading, widget: string}
               - {label: "Text", name: text, widget: text}
-              - label: "Primary Action",
-                name: "primaryaction",
+              - label: "Primary Action"
+                name: "primaryaction"
                 widget: "object"
                 fields: 
                   - {label: "Text", name: text, widget: string}
                   - {label: "URL", name: url, widget: string}
-              - label: "Primary Action",
-                name: "primaryaction",
+              - label: "Primary Action"
+                name: "primaryaction"
                 widget: "object"
                 fields: 
                   - {label: "Text", name: text, widget: string}
