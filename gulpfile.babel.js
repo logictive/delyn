@@ -15,6 +15,7 @@ import cssNext from 'postcss-cssnext';
 import BrowserSync from 'browser-sync';
 import imageresize from 'gulp-image-resize';
 import imagemin from 'gulp-imagemin';
+import imageminMozJpeg from 'imagemin-mozjpeg';
 import webpack from 'webpack';
 import webpackConfig from './webpack.conf';
 
@@ -74,11 +75,11 @@ gulp.task('fonts', () => (
 ));
 
 var sizes = [
-  {name: 'tmb', width: 30, crop: false},
-  {name: 'sm', width: 640, crop: false},
-  {name: 'md', width: 1024, crop: false},
-  {name: 'lg', width: 1280, crop: false},
-  {name: '', width: 2024, crop: false}
+  {name: 'tmb', width: 30, crop: false, quality: 20},
+  {name: 'sm', width: 640, crop: false, quality: 70},
+  {name: 'md', width: 1024, crop: false, quality: 80},
+  {name: 'lg', width: 1280, crop: false, quality: 80},
+  {name: '', width: 2024, crop: false, quality: 80}
 ];
 gulp.task('images', () => {
   sizes.forEach((size) => {
@@ -93,7 +94,14 @@ gulp.task('images', () => {
 
     gulp.src('./src/img/**/*.{jpg,png}', {base: './src/img/'})
       .pipe(imageresize(resize_settings))
-      .pipe(imagemin({progressive: true}))
+      .pipe(imagemin({
+        progressive: true,
+        plugins: [
+          imageminMozJpeg({
+            quality: size.quality
+          })
+        ]
+      }))
       .pipe(rename((path) => {
         path.basename = size.name ? path.basename + '-' + size.name : path.basename;
       }))

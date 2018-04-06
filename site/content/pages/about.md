@@ -10,6 +10,13 @@ menu: "main"
 weight: 1
 layout: "about"
 headerimage: "/img/categories/party.jpg"
+sections:
+  - image: "/img/about-section-1.jpg"
+    text: |
+      #### Our Offer
+      Delyn Packaigng is design-led, offering off-the-shelf products we've created in-house that suit the majority of client requirements, as well as bespoke design options to give your item a clear USP for maximum impact. 
+
+      Delyn has a comprehensive existing tool bank suitable across sectors AND a range of industry ‘standard’ tray sizes. Our quick turnaround on new projects with design, low cost sampling, and short lead times for new product development is what gives Delyn the edge.
 ---
 We are renowned for our fast response, high levels of manufacturing flexibility and short lead times - it’s why customers who come to us, stick with us! We’re proud of our ability to exceed expectations while operating to very high levels of product quality and customer service. Whatever your requirement we’re here to talk you through the process of getting you the perfect product, right when you need it.
 
