@@ -1,7 +1,8 @@
 ---
 title: "{{ replace .TranslationBaseName "-" " " | title }}"
-seoTitle: ""
-seoDescription: ""
+seo:
+  title: ""
+  description: ""
 date: {{ .Date }}
 draft: true
 imagealt: ''

@@ -1,8 +1,9 @@
 ---
 title: "About"
 subtitle: "Delyn Packaging is an established manufacturer of high quality thermoformed packaging covering many diverse sectors, including: non-food; cosmetics; pharmaceuticals; pet foods; meat & BBQ; salads & wet pasta; snacks; party foods; bakery; convenience / ready meals; and other sectors."
-seoTitle: "About"
-seoDescription: ""
+seo:
+  title: "About"
+  description: ""
 date: 2018-03-09T17:01:46Z
 draft: false
 menu: "main"

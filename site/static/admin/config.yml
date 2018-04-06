@@ -8,7 +8,7 @@ collections:
   - label: "Settings"
     name: "settings"
     files:
-      - name: "social"
+      - name: "socialmedia"
         label: "Social Media"
         file: "data/social.yml"
         fields:
@@ -77,3 +77,22 @@ collections:
             fields:
             - {label: "Show subscribe section", name: enabled, widget: boolean}
             - {label: "Caption (shown before form)", name: caption, widget: text}
+      - label: "About"
+        name: "about"
+        file: "site/content/pages/about.md"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - label: "SEO"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {label: "SEO Title", name: title, widget: string}
+              - {label: "SEO Description", name: description, widget: string}
+          - {label: "Header Image", name: headerimage, widget: image}
+          - {label: Body, name: body, widget: markdown}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+            - {label: Image, name: image, widget: boolean}
+            - {label: Text, name: text, widget: markdown}
