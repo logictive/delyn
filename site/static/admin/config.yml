@@ -10,7 +10,7 @@ collections:
     files:
       - name: "social"
         label: "Social Media"
-        file: "data/social.yml"
+        file: "site/data/social.yml"
         fields:
           - label: "Social Media List"
             name: "list"

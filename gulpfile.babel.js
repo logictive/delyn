@@ -76,10 +76,10 @@ gulp.task('fonts', () => (
 
 var sizes = [
   {name: 'tmb', width: 30, crop: false, quality: 20},
-  {name: 'sm', width: 640, crop: false, quality: 70},
-  {name: 'md', width: 1024, crop: false, quality: 80},
-  {name: 'lg', width: 1280, crop: false, quality: 80},
-  {name: '', width: 2024, crop: false, quality: 80}
+  {name: 'sm', width: 640, crop: false, quality: 80},
+  {name: 'md', width: 1024, crop: false, quality: 90},
+  {name: 'lg', width: 1280, crop: false, quality: 90},
+  {name: '', width: 2024, crop: false, quality: 90}
 ];
 gulp.task('images', () => {
   sizes.forEach((size) => {
@@ -95,9 +95,9 @@ gulp.task('images', () => {
     gulp.src('./src/img/**/*.{jpg,png}', {base: './src/img/'})
       .pipe(imageresize(resize_settings))
       .pipe(imagemin({
-        progressive: true,
         plugins: [
           imageminMozJpeg({
+            progressive: true,
             quality: size.quality
           })
         ]

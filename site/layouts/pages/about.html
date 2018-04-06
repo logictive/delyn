@@ -1,17 +1,20 @@
 {{ define "main" }}
   <main class="content {{ .Title }}">
-    {{ $sections := split .Content "<split>" }}
-    {{ range $i, $a := $sections }}
-      {{ if or (eq $i 0) (eq (add $i 1) (len $sections)) }}
+    <section class="section text-size-4 text-left text-light bg-dark">
+      {{ .Content }}
+    </section>
+    {{ range $.Param "sections" }}
+      {{ if eq .image "" }}
         <section class="section text-size-4 text-light bg-dark text-left">
-          {{ $a | markdownify }}
+          {{ .text | markdownify }}
         </section>
       {{ else }}
         <section class="section section--split text-size-4">
           <div class="section-split">
-            {{ $a | markdownify }}
+            {{ .text | markdownify }}
           </div>
-          {{ partial "image-progressive.html" (dict "image" ( printf "/img/about-section-%d.jpg" $i ) "class" "section-split section-split-image" "alt" "This is a test" "sizes" "(min-width: 48em) 33vw, 100vw" "cover" true ) }}
+          {{ $imageurl := .image }}
+          {{ partial "image-progressive.html" (dict "image" $imageurl "class" "section-split section-split-image" "alt" "This is a test" "sizes" "(min-width: 48em) 33vw, 100vw" "cover" true ) }}
         </section>
       {{ end }}
     {{end}}
