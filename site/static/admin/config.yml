@@ -8,18 +8,28 @@ collections:
   - label: "Settings"
     name: "settings"
     files:
-      - name: "social"
-        label: "Social Media"
+      - label: "Social Media"
+        name: "social"
         file: "site/data/social.yml"
         fields:
           - label: "Social Media List"
             name: "list"
             widget: "list"
             fields:
-              - {label: "Name", name: "name", widget: "string"}
-              - {label: "Link (URL)", name: "url", widget: "string"}
-              - {label: "FontAwesome Icon Name (without fa*-)", name: "icon", widget: "string"}
-      
+              - {label: Name, name: name, widget: string}
+              - {label: "Link (URL)", name: url, widget: string}
+              - {label: "FontAwesome Icon Name (without fa*-)", name: icon, widget: string}
+      - label: "General"
+        name: "general"
+        file: "site/data/settings.toml"
+        fields:
+          - name: "params"
+            label: "Params"
+            widget: "object"
+            fields:
+              - {label: "Google API Key", name: googleapikey, widget: string}
+              - {label: "Company Address", name: address, widget: markdown}
+              - {label: "Company Phone Number", name: phone, widget: string}
   - label: "News"
     name: "posts"
     folder: "site/content/posts"
@@ -94,7 +104,7 @@ collections:
             name: "sections"
             widget: "list"
             fields:
-            - {label: Image, name: image, widget: boolean}
+            - {label: Image, name: image, widget: image}
             - {label: Text, name: text, widget: markdown}
       - label: "Contact"
         name: "contact"

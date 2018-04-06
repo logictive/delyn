@@ -18,9 +18,5 @@ googleAnalytics = ""
   home = ["HTML", "JSON"]
 
 [params]
-  logo = "delyn-logo.svg"
-  headerImage = "/img/home-header-bg-lg.jpg"
-  googleAPIKey = "AIzaSyBu2fawxvFs5U8p6Y_RwX__-Casn18drkI"
-  address = "1 Willow Way,<br>Dyffryn Business Park,<br>Ystrad Mynach, Hengoed,<br>Mid Glamorgan,<br>CF82 7TR"
-  phone = "01443 865080"
+  headerimage = "/img/home-header-bg-lg.jpg"
   

@@ -7,7 +7,7 @@
     {{ if .Site.Params.phone }}
     <div class="contact-phone pad-y-lg text-center">
       <h3>Call Us</h3>
-      <a href="tel:{{ .Site.Params.phone }}" class="button button-xl"><i class="fas fa-phone mar-r-sm"></i>{{ .Site.Params.phone }}</a>
+      <a href="tel:{{ .Data.settings.params.phone }}" class="button button-xl"><i class="fas fa-phone mar-r-sm"></i>{{ .Site.Params.phone }}</a>
     </div>
     {{ end }}
 
@@ -262,10 +262,8 @@
 
       var contentString = '<div id="map-info">'+
         '<h5 class="map-info-heading text-uppercase">{{ .Site.Title }}</h5>'+
-        '<address class="map-info-address mar-b-sm">{{ .Site.Params.address }}</address>'+
-        {{ if .Site.Params.phone }}
-        '<p class="map-info-phone mar-b-0"><a href="tel:{{ .Site.Params.phone }}"><i class="fas fa-phone mar-r-xs"></i>{{ .Site.Params.phone }}</a></p>'+
-        {{ end }}
+        '<address class="map-info-address mar-b-sm">{{ .Site.Data.settings.params.address | markdownify }}</address>'+
+        '<p class="map-info-phone mar-b-0"><a href="tel:{{ .Site.Data.settings.params.phone }}"><i class="fas fa-phone mar-r-xs"></i>{{ .Site.Data.settings.params.phone }}</a></p>'+
         '</div>';
 
       var infowindow = new google.maps.InfoWindow({
@@ -276,6 +274,6 @@
     }
   </script>
   <script async defer
-  src="https://maps.googleapis.com/maps/api/js?key={{ .Site.Params.googleapikey }}&callback=initMap">
+  src="https://maps.googleapis.com/maps/api/js?key={{ .Site.Data.settings.params.phone.googleapikey }}&callback=initMap">
   </script>
 {{ end }}
