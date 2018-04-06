@@ -96,3 +96,16 @@ collections:
             fields:
             - {label: Image, name: image, widget: boolean}
             - {label: Text, name: text, widget: markdown}
+      - label: "Contact"
+        name: "contact"
+        file: "site/content/pages/contact.md"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - label: "SEO"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {label: "SEO Title", name: title, widget: string}
+              - {label: "SEO Description", name: description, widget: string}
+          - {label: "Header Image", name: headerimage, widget: image}
+          - {label: Body, name: body, widget: markdown}

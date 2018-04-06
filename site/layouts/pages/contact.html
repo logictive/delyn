@@ -261,7 +261,7 @@
       map.setMapTypeId('styled_map');
 
       var contentString = '<div id="map-info">'+
-        '<h5 class="map-info-heading text-uppercase">Delyn Packaging</h5>'+
+        '<h5 class="map-info-heading text-uppercase">{{ .Site.Title }}</h5>'+
         '<address class="map-info-address mar-b-sm">{{ .Site.Params.address }}</address>'+
         {{ if .Site.Params.phone }}
         '<p class="map-info-phone mar-b-0"><a href="tel:{{ .Site.Params.phone }}"><i class="fas fa-phone mar-r-xs"></i>{{ .Site.Params.phone }}</a></p>'+
