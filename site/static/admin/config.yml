@@ -44,6 +44,38 @@ collections:
   - label: "Pages"
     name: "pages"
     files:
+      - label: "Contact"
+        name: "contact"
+        file: "site/content/pages/contact.md"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - label: "SEO"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {label: "SEO Title", name: title, widget: string}
+              - {label: "SEO Description", name: description, widget: string}
+          - {label: "Header Image", name: headerimage, widget: image}
+          - {label: Body, name: body, widget: markdown}
+      - label: "About"
+        name: "about"
+        file: "site/content/pages/about.md"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - label: "SEO"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {label: "SEO Title", name: title, widget: string}
+              - {label: "SEO Description", name: description, widget: string}
+          - {label: "Header Image", name: headerimage, widget: image}
+          - {label: Body, name: body, widget: markdown}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+            - {label: Image, name: image, widget: image}
+            - {label: Text, name: text, widget: markdown}
       - label: "Home"
         name: "home"
         file: "site/content/_index.md"
@@ -87,35 +119,3 @@ collections:
             fields:
             - {label: "Show subscribe section", name: enabled, widget: boolean}
             - {label: "Caption (shown before form)", name: caption, widget: text}
-      - label: "About"
-        name: "about"
-        file: "site/content/pages/about.md"
-        fields:
-          - {label: Title, name: title, widget: string}
-          - label: "SEO"
-            name: "seo"
-            widget: "object"
-            fields:
-              - {label: "SEO Title", name: title, widget: string}
-              - {label: "SEO Description", name: description, widget: string}
-          - {label: "Header Image", name: headerimage, widget: image}
-          - {label: Body, name: body, widget: markdown}
-          - label: "Sections"
-            name: "sections"
-            widget: "list"
-            fields:
-            - {label: Image, name: image, widget: image}
-            - {label: Text, name: text, widget: markdown}
-      - label: "Contact"
-        name: "contact"
-        file: "site/content/pages/contact.md"
-        fields:
-          - {label: Title, name: title, widget: string}
-          - label: "SEO"
-            name: "seo"
-            widget: "object"
-            fields:
-              - {label: "SEO Title", name: title, widget: string}
-              - {label: "SEO Description", name: description, widget: string}
-          - {label: "Header Image", name: headerimage, widget: image}
-          - {label: Body, name: body, widget: markdown}

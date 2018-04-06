@@ -1,10 +1,10 @@
 params:
   googleapikey: "AIzaSyBu2fawxvFs5U8p6Y_RwX__-Casn18drkI"
   address: |
-    1 Willow Way,
-    Dyffryn Business Park,
-    Ystrad Mynach,
-    Hengoed,
-    Mid Glamorgan,
-    CF82 7TR"
+    1 Willow Way,<br>
+    Dyffryn Business Park,<br>
+    Ystrad Mynach,<br>
+    Hengoed,<br>
+    Mid Glamorgan,<br>
+    CF82 7TR
   phone: "01443 865080"

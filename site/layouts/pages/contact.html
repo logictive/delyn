@@ -7,7 +7,7 @@
     {{ if .Site.Params.phone }}
     <div class="contact-phone pad-y-lg text-center">
       <h3>Call Us</h3>
-      <a href="tel:{{ .Data.settings.params.phone }}" class="button button-xl"><i class="fas fa-phone mar-r-sm"></i>{{ .Site.Params.phone }}</a>
+      <a href="tel:{{ .Data.settings.params.phone }}" class="button button-xl"><i class="fas fa-phone mar-r-sm"></i>{{ .Site.Data.settings.params.phone }}</a>
     </div>
     {{ end }}
 
@@ -274,6 +274,6 @@
     }
   </script>
   <script async defer
-  src="https://maps.googleapis.com/maps/api/js?key={{ .Site.Data.settings.params.phone.googleapikey }}&callback=initMap">
+  src="https://maps.googleapis.com/maps/api/js?key={{ .Site.Data.settings.params.googleapikey }}&callback=initMap">
   </script>
 {{ end }}
