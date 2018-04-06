@@ -1,5 +1,5 @@
 <ul class="social">
-  {{ range .Site.Data.social }}
+  {{ range .Site.Data.social.list }}
     <li class="social__link social__link--{{ .name }}">
       <a href="{{ .url }}"><i title="{{ .name }}" class="fab fa-{{ .icon }} fa-lg"></i></a>
     </li>
