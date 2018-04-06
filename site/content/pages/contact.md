@@ -8,6 +8,6 @@ draft: false
 menu: "main"
 weight: 4
 layout: "contact"
-headerimage: "/img/categories/meat--bbq.jpg"
+headerimage: "/img/meat--bbq.jpg"
 ---
 Use the form below to get in touch. Old fashioned phone calls work too if you'd prefer to speak to a human being.

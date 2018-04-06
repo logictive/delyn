@@ -2,7 +2,7 @@
   {{ range $taxonomyname, $taxonomy := .Site.Taxonomies.categories }}
   <li class="productcat productcat--{{$taxonomyname}} mar-b-lg bg-light">
     <a href="{{ "/categories/" | relLangURL }}{{ $taxonomyname | urlize }}">
-      {{ $imageUrl := printf "/img/categories/%s.jpg" ($taxonomyname | urlize) }}
+      {{ $imageUrl := printf "/img/%s.jpg" ($taxonomyname | urlize) }}
       {{ partial "image-progressive.html" (dict "image" $imageUrl "class" "productcat-image" "alt" $taxonomyname "sizes" "(min-width: 48em) 33vw, 100vw" "cover" true "anchorless" true ) }}
       <h3 class="productcat-title text-size-5 text-normal text-dark pad-y-sm pad-x-md">{{ $taxonomyname }}</h3>
     </a>

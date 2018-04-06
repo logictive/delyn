@@ -9,7 +9,7 @@ draft: false
 menu: "main"
 weight: 1
 layout: "about"
-headerimage: "/img/categories/party.jpg"
+headerimage: "/img/party.jpg"
 sections:
   - image: "/img/about-section-1.jpg"
     text: |
