@@ -134,8 +134,11 @@
       background: var(--state-dark);
       padding: 1rem 1rem;
 
-      & .navbar-brand img {
+      & .navbar-brand-logo {
         height: 2.5rem;
+        g {
+          fill: var(--state-primary);
+        }
       }
     }
 

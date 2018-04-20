@@ -41,7 +41,8 @@
 .border-round-sm { border-radius: 0.25rem; }
 .border-round-lg { border-radius: 1rem; }
 
-.bg-transparent { background: transparent !important; }
+.bg-transparent { background-color: transparent !important; }
+.bg-white { background-color: white !important; }
 
 
 /* Flex Stuff */
