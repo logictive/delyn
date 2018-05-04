@@ -1,0 +1,12 @@
+list:
+  - {name: "Salad", headerimage: "/img/salad.jpg"}
+  - {name: "Snack", headerimage: "/img/snack.jpg"}
+  - {name: "Meat & BBQ", headerimage: "/img/meat--bbq.jpg"}
+  - {name: "Meal Tray", headerimage: "/img/meal-tray.jpg"}
+  - {name: "Bakery", headerimage: "/img/bakery.jpg"}
+  - {name: "Meatball Trays", headerimage: "/img/meatball-trays.jpg"}
+  - {name: "Party", headerimage: "/img/party.jpg"}
+  - {name: "Standards", headerimage: "/img/standards.jpg"}
+  - {name: "Burger Trays", headerimage: "/img/burger-trays.jpg"}
+  - {name: "Ice Cream", headerimage: "/img/ice-cream.jpg"}
+  - {name: "Display", headerimage: "/img/display.jpg"}

@@ -14,7 +14,7 @@ sections:
   - image: "/img/about-section-1.jpg"
     text: |
       #### Our Offer
-      Delyn Packaigng is design-led, offering off-the-shelf products we've created in-house that suit the majority of client requirements, as well as bespoke design options to give your item a clear USP for maximum impact. 
+      Delyn Packaging’s in-house, design led approach has given us a large platform of “off-the-shelf” products that suit the majority of client requirements; however bespoke design options could give your item a clear USP for maximum impact. 
 
       Delyn has a comprehensive existing tool bank suitable across sectors AND a range of industry ‘standard’ tray sizes. Our quick turnaround on new projects with design, low cost sampling, and short lead times for new product development is what gives Delyn the edge.
   - image: "/img/about-section-2.jpg"
